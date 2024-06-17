@@ -1,0 +1,41 @@
+R:\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+R:\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+R:\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+R:\QuanLyThuVien\QuanLyThuVien\bin\Debug\Guna.UI2.dll
+R:\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.AssemblyReference.cache
+R:\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Form1.resources
+R:\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+R:\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.cache
+R:\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CoreCompileInputs.cache
+R:\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyTh.B5137F7B.Up2Date
+R:\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+R:\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+R:\QuanLyThuVien\QuanLyThuVien\bin\Debug\MaterialWinforms.dll
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\bin\Debug\Guna.UI2.dll
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\bin\Debug\MaterialWinforms.dll
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.AssemblyReference.cache
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.cache
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CoreCompileInputs.cache
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyTh.B5137F7B.Up2Date
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormMain.resources
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormTraSach.resources
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDat.resources
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatThongTinSach.resources
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatQuyDinhTheDocGia.resources
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormThongKeBaoCao.resources
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormMuonTraSach.resources
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormKhoSach.resources
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormThongTinDocGia.resources
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormGioiThieu.resources
+C:\Users\ASUS GAMING\Downloads\QuanLyThuVien_Update1_0383977395_20240616.174634\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.AssemblyReference.cache
+C:\Users\ASUS GAMING\Downloads\QuanLyThuVien_Update1_0383977395_20240616.174634\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+C:\Users\ASUS GAMING\Downloads\QuanLyThuVien_Update1_0383977395_20240616.174634\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+C:\Users\ASUS GAMING\Downloads\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.AssemblyReference.cache
+C:\Users\ASUS GAMING\Downloads\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+C:\Users\ASUS GAMING\Downloads\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
