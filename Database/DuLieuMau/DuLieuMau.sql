@@ -1,4 +1,4 @@
-﻿-- Du lieu mau cho bang TAIKHOAN
+-- Du lieu mau cho bang TAIKHOAN
 INSERT INTO TAIKHOAN (MaTK, TK_Username, TK_Password, LoaiTK) VALUES
 ('TK001', 'user1', 'password1', 'Reader'),
 ('TK002', 'user2', 'password2', 'Reader'),
@@ -102,3 +102,16 @@ INSERT INTO SACH (MaSach, TenSach, MaTheLoai, TacGia, NamXuatBan, NhaXuatBan, So
 ('S028', 'Công nghệ blockchain', 'TL006', 'Nguyễn Thành Công', 2018, 'NXB Công Nghệ', 18, 290000),
 ('S029', 'Cách mạng công nghiệp 4.0', 'TL006', 'Klaus Schwab', 2019, 'NXB Trẻ', 20, 300000),
 ('S030', 'Hành trình về phương Đông', 'TL006', 'Baird T. Spalding', 2020, 'NXB Văn Hóa Thông Tin', 19, 340000);
+
+
+-- Du lieu mau bang QUY_DINH
+INSERT INTO QUY_DINH VALUES (18, 55, 6, 8, 5, 7, 10, 1000)
+
+-- Số tuổi nhỏ nhất là 18 tuổi
+-- Số tuổi lớn nhất là 55 tuổi
+-- Thời hạn thẻ độc giả là 6 tháng
+-- Số năm xuất bản có thể nhập là 8 năm
+-- Số sách độc giả có thể mượn trong 7 ngày là 5 quyển
+-- Số ngày giới hạn số sách độc giả mượn là 7 ngày
+-- Thời hạn độc giả có thể mượn sách là 10 ngày
+-- Phí phạt nếu trả sách trễ là 1000đ/ngày
