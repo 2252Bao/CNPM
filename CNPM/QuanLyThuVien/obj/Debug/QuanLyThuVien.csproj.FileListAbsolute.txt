@@ -39,3 +39,28 @@ C:\Users\ASUS GAMING\Downloads\QuanLyThuVien_Update1_0383977395_20240616.174634\
 C:\Users\ASUS GAMING\Downloads\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.AssemblyReference.cache
 C:\Users\ASUS GAMING\Downloads\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
 C:\Users\ASUS GAMING\Downloads\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\Guna.UI2.dll
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\MaterialWinforms.dll
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.AssemblyReference.cache
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDat.resources
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatQuyDinhTheDocGia.resources
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatThongTinSach.resources
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormGioiThieu.resources
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormKhoSach.resources
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormMain.resources
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormMuonTraSach.resources
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormThongKeBaoCao.resources
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormThongTinDocGia.resources
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormTraSach.resources
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.cache
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CoreCompileInputs.cache
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyTh.B5137F7B.Up2Date
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatMuonTraSach.resources
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatThongTinCaNhan.resources
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatDoiMatKhau.resources

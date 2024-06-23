@@ -1,0 +1,116 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\0. Download\\Nhap Mon CNPM\\CNPM\\CNPM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BE98E3A4-E18A-462B-9B98-F7A007C06035}|QuanLyThuVien\\QuanLyThuVien.csproj|d:\\0. download\\nhap mon cnpm\\cnpm\\cnpm\\quanlythuvien\\formgioithieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE98E3A4-E18A-462B-9B98-F7A007C06035}|QuanLyThuVien\\QuanLyThuVien.csproj|solutionrelative:quanlythuvien\\formgioithieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE98E3A4-E18A-462B-9B98-F7A007C06035}|QuanLyThuVien\\QuanLyThuVien.csproj|d:\\0. download\\nhap mon cnpm\\cnpm\\cnpm\\quanlythuvien\\formcaidatthongtincanhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE98E3A4-E18A-462B-9B98-F7A007C06035}|QuanLyThuVien\\QuanLyThuVien.csproj|solutionrelative:quanlythuvien\\formcaidatthongtincanhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE98E3A4-E18A-462B-9B98-F7A007C06035}|QuanLyThuVien\\QuanLyThuVien.csproj|d:\\0. download\\nhap mon cnpm\\cnpm\\cnpm\\quanlythuvien\\formcaidatthongtinsach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE98E3A4-E18A-462B-9B98-F7A007C06035}|QuanLyThuVien\\QuanLyThuVien.csproj|solutionrelative:quanlythuvien\\formcaidatthongtinsach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE98E3A4-E18A-462B-9B98-F7A007C06035}|QuanLyThuVien\\QuanLyThuVien.csproj|d:\\0. download\\nhap mon cnpm\\cnpm\\cnpm\\quanlythuvien\\formcaidatquydinhthedocgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE98E3A4-E18A-462B-9B98-F7A007C06035}|QuanLyThuVien\\QuanLyThuVien.csproj|solutionrelative:quanlythuvien\\formcaidatquydinhthedocgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE98E3A4-E18A-462B-9B98-F7A007C06035}|QuanLyThuVien\\QuanLyThuVien.csproj|d:\\0. download\\nhap mon cnpm\\cnpm\\cnpm\\quanlythuvien\\formcaidatmuontrasach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE98E3A4-E18A-462B-9B98-F7A007C06035}|QuanLyThuVien\\QuanLyThuVien.csproj|solutionrelative:quanlythuvien\\formcaidatmuontrasach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE98E3A4-E18A-462B-9B98-F7A007C06035}|QuanLyThuVien\\QuanLyThuVien.csproj|d:\\0. download\\nhap mon cnpm\\cnpm\\cnpm\\quanlythuvien\\formcaidatdoimatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE98E3A4-E18A-462B-9B98-F7A007C06035}|QuanLyThuVien\\QuanLyThuVien.csproj|solutionrelative:quanlythuvien\\formcaidatdoimatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormGioiThieu.cs [Design]",
+              "DocumentMoniker": "D:\\0. Download\\Nhap Mon CNPM\\CNPM\\CNPM\\QuanLyThuVien\\FormGioiThieu.cs",
+              "RelativeDocumentMoniker": "QuanLyThuVien\\FormGioiThieu.cs",
+              "ToolTip": "D:\\0. Download\\Nhap Mon CNPM\\CNPM\\CNPM\\QuanLyThuVien\\FormGioiThieu.cs [Design]",
+              "RelativeToolTip": "QuanLyThuVien\\FormGioiThieu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T13:46:03.738Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormCaiDatThongTinSach.cs [Design]",
+              "DocumentMoniker": "D:\\0. Download\\Nhap Mon CNPM\\CNPM\\CNPM\\QuanLyThuVien\\FormCaiDatThongTinSach.cs",
+              "RelativeDocumentMoniker": "QuanLyThuVien\\FormCaiDatThongTinSach.cs",
+              "ToolTip": "D:\\0. Download\\Nhap Mon CNPM\\CNPM\\CNPM\\QuanLyThuVien\\FormCaiDatThongTinSach.cs [Design]",
+              "RelativeToolTip": "QuanLyThuVien\\FormCaiDatThongTinSach.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T13:45:48.963Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormCaiDatThongTinCaNhan.cs [Design]",
+              "DocumentMoniker": "D:\\0. Download\\Nhap Mon CNPM\\CNPM\\CNPM\\QuanLyThuVien\\FormCaiDatThongTinCaNhan.cs",
+              "RelativeDocumentMoniker": "QuanLyThuVien\\FormCaiDatThongTinCaNhan.cs",
+              "ToolTip": "D:\\0. Download\\Nhap Mon CNPM\\CNPM\\CNPM\\QuanLyThuVien\\FormCaiDatThongTinCaNhan.cs [Design]",
+              "RelativeToolTip": "QuanLyThuVien\\FormCaiDatThongTinCaNhan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T13:45:40.176Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormCaiDatQuyDinhTheDocGia.cs [Design]",
+              "DocumentMoniker": "D:\\0. Download\\Nhap Mon CNPM\\CNPM\\CNPM\\QuanLyThuVien\\FormCaiDatQuyDinhTheDocGia.cs",
+              "RelativeDocumentMoniker": "QuanLyThuVien\\FormCaiDatQuyDinhTheDocGia.cs",
+              "ToolTip": "D:\\0. Download\\Nhap Mon CNPM\\CNPM\\CNPM\\QuanLyThuVien\\FormCaiDatQuyDinhTheDocGia.cs [Design]",
+              "RelativeToolTip": "QuanLyThuVien\\FormCaiDatQuyDinhTheDocGia.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T13:45:14.246Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormCaiDatDoiMatKhau.cs [Design]",
+              "DocumentMoniker": "D:\\0. Download\\Nhap Mon CNPM\\CNPM\\CNPM\\QuanLyThuVien\\FormCaiDatDoiMatKhau.cs",
+              "RelativeDocumentMoniker": "QuanLyThuVien\\FormCaiDatDoiMatKhau.cs",
+              "ToolTip": "D:\\0. Download\\Nhap Mon CNPM\\CNPM\\CNPM\\QuanLyThuVien\\FormCaiDatDoiMatKhau.cs [Design]",
+              "RelativeToolTip": "QuanLyThuVien\\FormCaiDatDoiMatKhau.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T13:43:55.784Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormCaiDatMuonTraSach.cs [Design]",
+              "DocumentMoniker": "D:\\0. Download\\Nhap Mon CNPM\\CNPM\\CNPM\\QuanLyThuVien\\FormCaiDatMuonTraSach.cs",
+              "RelativeDocumentMoniker": "QuanLyThuVien\\FormCaiDatMuonTraSach.cs",
+              "ToolTip": "D:\\0. Download\\Nhap Mon CNPM\\CNPM\\CNPM\\QuanLyThuVien\\FormCaiDatMuonTraSach.cs [Design]",
+              "RelativeToolTip": "QuanLyThuVien\\FormCaiDatMuonTraSach.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T13:43:06.707Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

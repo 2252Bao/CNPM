@@ -16,5 +16,20 @@ namespace QuanLyThuVien
         {
             InitializeComponent();
         }
+
+        private void FormCaiDatThongTinSach_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnThemTheLoai_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnXoa_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

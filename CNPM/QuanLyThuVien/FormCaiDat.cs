@@ -31,5 +31,21 @@ namespace QuanLyThuVien
         {
             btnCaiDatQuyDinhTheDocGia_Click(sender, e);
         }
+
+        private void btnCaiDatThongTinCaNhan_Click(object sender, EventArgs e)
+        {
+            Utils.LoadForm(pnlCaiDatContent, new FormCaiDatThongTinCaNhan());
+        }
+
+        private void btnDoiMatKhau_Click(object sender, EventArgs e)
+        {
+            Utils.LoadForm(pnlCaiDatContent, new FormCaiDatDoiMatKhau());
+        }
+
+        private void btnCaiDatThongTinMuonTraSach_Click(object sender, EventArgs e)
+        {
+            Utils.LoadForm(pnlCaiDatContent, new FormCaiDatMuonTraSach());
+        }
+
     }
 }

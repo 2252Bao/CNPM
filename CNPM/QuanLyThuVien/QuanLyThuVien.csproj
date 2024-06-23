@@ -62,11 +62,29 @@
     <Compile Include="FormCaiDat.Designer.cs">
       <DependentUpon>FormCaiDat.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormCaiDatDoiMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCaiDatDoiMatKhau.Designer.cs">
+      <DependentUpon>FormCaiDatDoiMatKhau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCaiDatMuonTraSach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCaiDatMuonTraSach.Designer.cs">
+      <DependentUpon>FormCaiDatMuonTraSach.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormCaiDatQuyDinhTheDocGia.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormCaiDatQuyDinhTheDocGia.Designer.cs">
       <DependentUpon>FormCaiDatQuyDinhTheDocGia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCaiDatThongTinCaNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCaiDatThongTinCaNhan.Designer.cs">
+      <DependentUpon>FormCaiDatThongTinCaNhan.cs</DependentUpon>
     </Compile>
     <Compile Include="FormCaiDatThongTinSach.cs">
       <SubType>Form</SubType>
@@ -122,8 +140,17 @@
     <EmbeddedResource Include="FormCaiDat.resx">
       <DependentUpon>FormCaiDat.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormCaiDatDoiMatKhau.resx">
+      <DependentUpon>FormCaiDatDoiMatKhau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCaiDatMuonTraSach.resx">
+      <DependentUpon>FormCaiDatMuonTraSach.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormCaiDatQuyDinhTheDocGia.resx">
       <DependentUpon>FormCaiDatQuyDinhTheDocGia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCaiDatThongTinCaNhan.resx">
+      <DependentUpon>FormCaiDatThongTinCaNhan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormCaiDatThongTinSach.resx">
       <DependentUpon>FormCaiDatThongTinSach.cs</DependentUpon>
