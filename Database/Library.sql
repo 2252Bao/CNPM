@@ -85,6 +85,18 @@ CREATE TABLE PHIEU_THU_TIEN_PHAT(
 	NgayTraTien SMALLDATETIME
 )
 
+
+CREATE TABLE QUY_DINH(
+	MinAge INT,
+	MaxAge INT,
+	Thoi_Han_The_Doc_Gia INT,
+	So_Nam_Xuat_Ban INT,
+	So_Sach_Doc_Gia_Muon_Duoc_Trong_Mot_ThoiGian INT,
+	So_Ngay_Gioi_Han_So_Luong_Sach_Muon INT,
+	Thoi_Han_Muon_Sach INT,
+	Phi_Phat_Theo_Mot_Ngay_Tre INT,
+)
+
 -------------------------------------------------------------
 
 --TAO TRIGGER
@@ -95,36 +107,44 @@ CREATE TRIGGER KiemTraTuoi ON THE_DOCGIA
 FOR INSERT, UPDATE
 AS
 BEGIN
-    DECLARE @MinAge INT = 18
-    DECLARE @MaxAge INT = 55
+    DECLARE @MinAge INT
+    DECLARE @MaxAge INT
+
+	SELECT @MinAge = Q.MinAge,
+		   @MaxAge = Q.MaxAge
+	FROM QUY_DINH Q
 
     IF EXISTS (
         SELECT 1
         FROM inserted
-		--- Lay ngay hom nay tru ngày sinh, ket qua tra ve la so tuoi.
+		--- Lay ngay hom nay tru ngay sinh, ket qua tra ve la so tuoi.
         WHERE DATEDIFF(YEAR, NgaySinh, GETDATE()) < @MinAge OR DATEDIFF(YEAR, NgaySinh, GETDATE()) > @MaxAge
     )
     BEGIN
-        PRINT 'Tuoi cua doc gia phai tu 18 den 55'
+        PRINT 'Tuoi cua doc gia phai trong gioi han quy dinh'
         ROLLBACK TRANSACTION
     END
 END
 
---QD1: The doc gia co thoi han la 6 thang.
+--QD1: The doc gia co thoi han la vai thang theo quy dinh.
 CREATE TRIGGER HSD ON THE_DOCGIA
-AFTER INSERT
+FOR INSERT
 AS
 BEGIN
     DECLARE @MaDG VARCHAR(255)
     DECLARE @NgayLapTheDocGia SMALLDATETIME
     DECLARE @NgayHetHan SMALLDATETIME
+	DECLARE @ThoiHanThe INT
+
+	SELECT @ThoiHanThe = Q.Thoi_Han_The_Doc_Gia
+	FROM QUY_DINH Q
 
     SELECT @MaDG = inserted.MaDG,
            @NgayLapTheDocGia = inserted.NgayLapTheDocGia
     FROM inserted
 
     -- Tinh ngay het han
-    SET @NgayHetHan = DATEADD(MONTH, 6, @NgayLapTheDocGia)
+    SET @NgayHetHan = DATEADD(MONTH, @ThoiHanThe, @NgayLapTheDocGia)
 
     -- Cap nhat ngay het han vao bang THE_DOCGIA
     UPDATE THE_DOCGIA
@@ -132,7 +152,7 @@ BEGIN
     WHERE MaDG = @MaDG
 END
 
---QD2: CHI NHAN SACH XUAT BAN TRONG VONG 8 NAM.
+--QD2: CHI NHAN SACH XUAT BAN TRONG VONG VAI NAM THEO QUY DINH.
 
 CREATE TRIGGER KiemTraNamXuatBan ON SACH
 FOR INSERT, UPDATE
@@ -140,11 +160,15 @@ AS
 BEGIN
     DECLARE @NamXuatBanCaoNhat INT
     DECLARE @NamXuatBanThapNhat INT
+	DECLARE @So_Nam_Xuat_Ban_Quy_Dinh INT
+
+	SELECT @So_Nam_Xuat_Ban_Quy_Dinh = Q.So_Nam_Xuat_Ban
+	FROM QUY_DINH Q
 
     -- Lay nam hien tai
     SET @NamXuatBanCaoNhat = YEAR(GETDATE())
-    -- Tinh nam nho nhat duoc phep xuat ban (8 nam truoc nam hien tai)
-    SET @NamXuatBanThapNhat = @NamXuatBanCaoNhat - 8
+    -- Tinh nam nho nhat duoc phep xuat ban
+    SET @NamXuatBanThapNhat = @NamXuatBanCaoNhat - @So_Nam_Xuat_Ban_Quy_Dinh
 
     IF EXISTS (
         SELECT 1
@@ -152,21 +176,26 @@ BEGIN
         WHERE NamXuatBan < @NamXuatBanThapNhat OR NamXuatBan > @NamXuatBanCaoNhat
     )
     BEGIN
-        PRINT 'Sach phai duoc xuat ban trong vong 8 nam gan day'
+        PRINT 'So nam xuat ban cua sach phai trong khoang cho phep'
         ROLLBACK TRANSACTION
     END
 END
 
---QD3: Chi cho muon voi the con han
+--QD3: Chi cho muon voi the con han. Chi muon duoc mot so luong sach nhat dinh trong mot thoi gian
 
 CREATE TRIGGER DieuKienMuon ON PHIEU_MUON_SACH
 FOR INSERT
 AS
 BEGIN
-    DECLARE @MaxBooksPerMember INT = 5
-    DECLARE @MaxDaysToReturn INT = 7
+    DECLARE @MaxBooksPerMember INT
+    DECLARE @MaxDaysToReturn INT
 	DECLARE @MaSach VARCHAR(255)
-    -- Kiem tra the doc gia co con han không
+
+	SELECT @MaxBooksPerMember = Q.So_Sach_Doc_Gia_Muon_Duoc_Trong_Mot_ThoiGian,
+		   @MaxDaysToReturn = Q.So_Ngay_Gioi_Han_So_Luong_Sach_Muon
+	FROM QUY_DINH Q
+
+    -- Kiem tra the doc gia co con han khÃ´ng
     IF EXISTS (
         SELECT 1
         FROM inserted i JOIN THE_DOCGIA dg ON i.MaDG = dg.MaDG
@@ -177,9 +206,20 @@ BEGIN
         ROLLBACK TRANSACTION
     END
 
+	-- Kiem tra so luong sach muon cua doc gia trong mot khoang thoi gian theo quy dinh
+    IF (
+        SELECT SUM(SoLuongSach)
+        FROM PHIEU_MUON_SACH
+        WHERE MaDG = (SELECT MaDG FROM inserted) AND NgayMuon >= DATEADD(DAY, -@MaxDaysToReturn, GETDATE())
+    ) >= @MaxBooksPerMember
+    BEGIN
+        PRINT 'So luong sach muon da vuot muc toi da.'
+        ROLLBACK TRANSACTION
+    END
+END
 -- QD5: Moi ngay tra tre phat 1.000 dong/ngay. (Moi sach duoc muon toi da 10 ngay.)
-CREATE or alter TRIGGER TinhPhiPhat ON PHIEU_TRA_SACH
-AFTER INSERT, UPDATE
+CREATE TRIGGER TinhPhiPhat ON PHIEU_TRA_SACH
+FOR INSERT, UPDATE
 AS
 BEGIN
     DECLARE @MaPhieuTra VARCHAR(255)
@@ -188,9 +228,15 @@ BEGIN
 	DECLARE @NgayMuon SMALLDATETIME
     DECLARE @SoNgayTre INT
     DECLARE @PhiPhat MONEY
-	DECLARE @ThoiHanMuonSach INT = 10
+	DECLARE @ThoiHanMuonSach INT
+	DECLARE @PhiPhatTheoNGay INT
+
+
+	SELECT @ThoiHanMuonSach = Q.Thoi_Han_Muon_Sach,
+		   @PhiPhatTheoNGay = Q.Phi_Phat_Theo_Mot_Ngay_Tre
+	FROM QUY_DINH Q
     
-    
+
     SELECT @MaPhieuTra = inserted.MaPhieuTra,
            @NgayTra = inserted.NgayTra,
 		   @MaPhieuMuon = inserted.MaPhieuMuon
@@ -210,7 +256,7 @@ BEGIN
 	
     
     -- Tinh phi phat
-    SET @PhiPhat = @SoNgayTre * 1000
+    SET @PhiPhat = @SoNgayTre * @PhiPhatTheoNGay
     END
     -- Cap nhat phi phat vao bang PHIEU_TRA_SACH
     UPDATE PHIEU_TRA_SACH
@@ -221,7 +267,7 @@ END
 
 --QD: So tien thu khong duoc vuot qua so tien doc gia dang no.
 CREATE TRIGGER ThuTienPhat ON PHIEU_THU_TIEN_PHAT
-AFTER INSERT, UPDATE
+FOR INSERT, UPDATE
 AS
 BEGIN
 	DECLARE @MaPhieuPhat VARCHAR(255)
