@@ -1,3 +1,6 @@
+
+SET DATEFORMAT DMY
+
 -- Du lieu mau cho bang TAIKHOAN
 INSERT INTO TAIKHOAN (MaTK, TK_Username, TK_Password, LoaiTK) VALUES
 ('TK001', 'user1', 'password1', 'Reader'),
