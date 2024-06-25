@@ -58,10 +58,10 @@
             this.btnCaiDatQuyDinhTheDocGia.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(118)))), ((int)(((byte)(200)))));
             this.btnCaiDatQuyDinhTheDocGia.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCaiDatQuyDinhTheDocGia.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnCaiDatQuyDinhTheDocGia.Location = new System.Drawing.Point(9, 6);
+            this.btnCaiDatQuyDinhTheDocGia.Location = new System.Drawing.Point(22, 6);
             this.btnCaiDatQuyDinhTheDocGia.Margin = new System.Windows.Forms.Padding(2);
             this.btnCaiDatQuyDinhTheDocGia.Name = "btnCaiDatQuyDinhTheDocGia";
-            this.btnCaiDatQuyDinhTheDocGia.Size = new System.Drawing.Size(206, 59);
+            this.btnCaiDatQuyDinhTheDocGia.Size = new System.Drawing.Size(213, 59);
             this.btnCaiDatQuyDinhTheDocGia.TabIndex = 3;
             this.btnCaiDatQuyDinhTheDocGia.Text = "QUY ĐỊNH THẺ ĐỘC GIẢ";
             this.btnCaiDatQuyDinhTheDocGia.Click += new System.EventHandler(this.btnCaiDatQuyDinhTheDocGia_Click);
@@ -80,7 +80,7 @@
             this.guna2Panel4.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel4.Margin = new System.Windows.Forms.Padding(0);
             this.guna2Panel4.Name = "guna2Panel4";
-            this.guna2Panel4.Size = new System.Drawing.Size(1131, 85);
+            this.guna2Panel4.Size = new System.Drawing.Size(1167, 85);
             this.guna2Panel4.TabIndex = 0;
             // 
             // guna2HtmlLabel1
@@ -94,7 +94,7 @@
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(494, 22);
             this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(223, 39);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(259, 39);
             this.guna2HtmlLabel1.TabIndex = 0;
             this.guna2HtmlLabel1.Text = "CÀI ĐẶT";
             this.guna2HtmlLabel1.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
@@ -107,7 +107,7 @@
             this.guna2Panel2.Location = new System.Drawing.Point(2, 2);
             this.guna2Panel2.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(1131, 85);
+            this.guna2Panel2.Size = new System.Drawing.Size(1167, 85);
             this.guna2Panel2.TabIndex = 0;
             // 
             // guna2Panel3
@@ -122,7 +122,7 @@
             this.guna2Panel3.Location = new System.Drawing.Point(2, 91);
             this.guna2Panel3.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.Size = new System.Drawing.Size(1131, 72);
+            this.guna2Panel3.Size = new System.Drawing.Size(1167, 72);
             this.guna2Panel3.TabIndex = 1;
             // 
             // btnDoiMatKhau
@@ -136,10 +136,10 @@
             this.btnDoiMatKhau.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(118)))), ((int)(((byte)(200)))));
             this.btnDoiMatKhau.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDoiMatKhau.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnDoiMatKhau.Location = new System.Drawing.Point(908, 6);
+            this.btnDoiMatKhau.Location = new System.Drawing.Point(936, 6);
             this.btnDoiMatKhau.Margin = new System.Windows.Forms.Padding(2);
             this.btnDoiMatKhau.Name = "btnDoiMatKhau";
-            this.btnDoiMatKhau.Size = new System.Drawing.Size(214, 59);
+            this.btnDoiMatKhau.Size = new System.Drawing.Size(208, 59);
             this.btnDoiMatKhau.TabIndex = 3;
             this.btnDoiMatKhau.Text = "ĐỔI MẬT KHẨU";
             this.btnDoiMatKhau.Click += new System.EventHandler(this.btnDoiMatKhau_Click);
@@ -155,10 +155,10 @@
             this.btnCaiDatThongTinCaNhan.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(118)))), ((int)(((byte)(200)))));
             this.btnCaiDatThongTinCaNhan.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCaiDatThongTinCaNhan.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnCaiDatThongTinCaNhan.Location = new System.Drawing.Point(685, 6);
+            this.btnCaiDatThongTinCaNhan.Location = new System.Drawing.Point(707, 6);
             this.btnCaiDatThongTinCaNhan.Margin = new System.Windows.Forms.Padding(2);
             this.btnCaiDatThongTinCaNhan.Name = "btnCaiDatThongTinCaNhan";
-            this.btnCaiDatThongTinCaNhan.Size = new System.Drawing.Size(219, 59);
+            this.btnCaiDatThongTinCaNhan.Size = new System.Drawing.Size(225, 59);
             this.btnCaiDatThongTinCaNhan.TabIndex = 3;
             this.btnCaiDatThongTinCaNhan.Text = "THÔNG TIN CÁ NHÂN";
             this.btnCaiDatThongTinCaNhan.Click += new System.EventHandler(this.btnCaiDatThongTinCaNhan_Click);
@@ -174,10 +174,10 @@
             this.btnCaiDatThongTinMuonTra.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(118)))), ((int)(((byte)(200)))));
             this.btnCaiDatThongTinMuonTra.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCaiDatThongTinMuonTra.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnCaiDatThongTinMuonTra.Location = new System.Drawing.Point(444, 6);
+            this.btnCaiDatThongTinMuonTra.Location = new System.Drawing.Point(451, 6);
             this.btnCaiDatThongTinMuonTra.Margin = new System.Windows.Forms.Padding(2);
             this.btnCaiDatThongTinMuonTra.Name = "btnCaiDatThongTinMuonTra";
-            this.btnCaiDatThongTinMuonTra.Size = new System.Drawing.Size(237, 59);
+            this.btnCaiDatThongTinMuonTra.Size = new System.Drawing.Size(252, 59);
             this.btnCaiDatThongTinMuonTra.TabIndex = 3;
             this.btnCaiDatThongTinMuonTra.Text = "THÔNG TIN MƯỢN - TRẢ SÁCH";
             this.btnCaiDatThongTinMuonTra.Click += new System.EventHandler(this.btnCaiDatThongTinMuonTraSach_Click);
@@ -193,10 +193,10 @@
             this.btnCaiDatThongTinSach.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(118)))), ((int)(((byte)(200)))));
             this.btnCaiDatThongTinSach.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCaiDatThongTinSach.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnCaiDatThongTinSach.Location = new System.Drawing.Point(219, 6);
+            this.btnCaiDatThongTinSach.Location = new System.Drawing.Point(239, 6);
             this.btnCaiDatThongTinSach.Margin = new System.Windows.Forms.Padding(2);
             this.btnCaiDatThongTinSach.Name = "btnCaiDatThongTinSach";
-            this.btnCaiDatThongTinSach.Size = new System.Drawing.Size(221, 59);
+            this.btnCaiDatThongTinSach.Size = new System.Drawing.Size(208, 59);
             this.btnCaiDatThongTinSach.TabIndex = 3;
             this.btnCaiDatThongTinSach.Text = "THÔNG TIN SÁCH";
             this.btnCaiDatThongTinSach.Click += new System.EventHandler(this.btnCaiDatThongTinSach_Click);
@@ -217,7 +217,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 89F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 76F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1135, 680);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1171, 881);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // pnlCaiDatContent
@@ -227,7 +227,7 @@
             this.pnlCaiDatContent.Location = new System.Drawing.Point(0, 165);
             this.pnlCaiDatContent.Margin = new System.Windows.Forms.Padding(0);
             this.pnlCaiDatContent.Name = "pnlCaiDatContent";
-            this.pnlCaiDatContent.Size = new System.Drawing.Size(1135, 515);
+            this.pnlCaiDatContent.Size = new System.Drawing.Size(1171, 716);
             this.pnlCaiDatContent.TabIndex = 2;
             // 
             // layoutMain
@@ -243,14 +243,14 @@
             this.layoutMain.Name = "layoutMain";
             this.layoutMain.RowCount = 1;
             this.layoutMain.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.layoutMain.Size = new System.Drawing.Size(1135, 680);
+            this.layoutMain.Size = new System.Drawing.Size(1171, 881);
             this.layoutMain.TabIndex = 1;
             // 
             // FormCaiDat
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1135, 680);
+            this.ClientSize = new System.Drawing.Size(1171, 881);
             this.Controls.Add(this.layoutMain);
             this.Name = "FormCaiDat";
             this.Text = "CÀI ĐẶT";

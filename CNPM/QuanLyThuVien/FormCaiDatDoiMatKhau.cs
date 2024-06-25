@@ -17,27 +17,22 @@ namespace QuanLyThuVien
             InitializeComponent();
         }
 
-        private void guna2HtmlLabel3_Click(object sender, EventArgs e)
+        private void txtMatKhauHienTai_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void txtHoVaTen_TextChanged(object sender, EventArgs e)
+        private void txtMatKhauMoi_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void guna2HtmlLabel1_Click(object sender, EventArgs e)
+        private void txtNhapLaiMatKhauMoi_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2HtmlLabel2_Click(object sender, EventArgs e)
+        private void btnLuuThayDoi_Click(object sender, EventArgs e)
         {
 
         }

@@ -24,7 +24,8 @@ namespace QuanLyThuVien
 
         private void btnThemTheLoai_Click(object sender, EventArgs e)
         {
-
+            FormCaiDatThemTheLoai newForm = new FormCaiDatThemTheLoai();
+            newForm.ShowDialog(); // Opens as a modal dialog
         }
 
         private void btnXoa_Click(object sender, EventArgs e)

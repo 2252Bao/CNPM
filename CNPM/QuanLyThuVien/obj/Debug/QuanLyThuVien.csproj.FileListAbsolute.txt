@@ -64,3 +64,5 @@ D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
 D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatMuonTraSach.resources
 D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatThongTinCaNhan.resources
 D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatDoiMatKhau.resources
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatChinhSuaTheLoai.resources
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatThemTheLoai.resources

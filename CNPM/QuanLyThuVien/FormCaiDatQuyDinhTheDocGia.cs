@@ -16,5 +16,10 @@ namespace QuanLyThuVien
         {
             InitializeComponent();
         }
+
+        private void FormCaiDatQuyDinhTheDocGia_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

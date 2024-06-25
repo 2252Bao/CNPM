@@ -17,42 +17,28 @@ namespace QuanLyThuVien
             InitializeComponent();
         }
 
-        private void label2_Click(object sender, EventArgs e)
+
+        private void FormCaiDatMuonTraSach_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void guna2HtmlLabel4_Click(object sender, EventArgs e)
+        private void txtSoLuongToiDa_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void txtTuTuoi_TextChanged(object sender, EventArgs e)
+        private void txtSoNgayToiDa_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void guna2HtmlLabel3_Click(object sender, EventArgs e)
+        private void txtThoiGianToiDa_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void guna2TextBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2HtmlLabel5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2HtmlLabel7_Click(object sender, EventArgs e)
+        private void txtTienPhat_TextChanged(object sender, EventArgs e)
         {
 
         }
