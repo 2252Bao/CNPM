@@ -70,7 +70,6 @@
             this.txtTenTheLoai.Name = "txtTenTheLoai";
             this.txtTenTheLoai.Size = new System.Drawing.Size(503, 31);
             this.txtTenTheLoai.TabIndex = 31;
-            this.txtTenTheLoai.TextChanged += new System.EventHandler(this.txtTenTheLoai_TextChanged);
             // 
             // btnDong
             // 
@@ -125,6 +124,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "FormCaiDatChinhSuaTheLoai";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormCaiDatChinhSuaTheLoai";
             this.ResumeLayout(false);
             this.PerformLayout();

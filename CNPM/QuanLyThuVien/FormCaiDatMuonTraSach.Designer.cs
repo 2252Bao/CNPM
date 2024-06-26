@@ -44,7 +44,7 @@
             this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.btnLuuThayDoi = new Guna.UI2.WinForms.Guna2Button();
+            this.btnSave = new Guna.UI2.WinForms.Guna2Button();
             this.SuspendLayout();
             // 
             // guna2HtmlLabel3
@@ -101,7 +101,7 @@
             this.txtSoNgayToiDa.BorderColor = System.Drawing.Color.Transparent;
             this.txtSoNgayToiDa.BorderThickness = 0;
             this.txtSoNgayToiDa.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtSoNgayToiDa.DefaultText = "7";
+            this.txtSoNgayToiDa.DefaultText = "";
             this.txtSoNgayToiDa.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.txtSoNgayToiDa.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txtSoNgayToiDa.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -121,7 +121,6 @@
             this.txtSoNgayToiDa.Size = new System.Drawing.Size(131, 30);
             this.txtSoNgayToiDa.TabIndex = 10;
             this.txtSoNgayToiDa.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtSoNgayToiDa.TextChanged += new System.EventHandler(this.txtSoNgayToiDa_TextChanged);
             // 
             // txtTienPhat
             // 
@@ -129,7 +128,7 @@
             this.txtTienPhat.BorderColor = System.Drawing.Color.Transparent;
             this.txtTienPhat.BorderThickness = 0;
             this.txtTienPhat.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtTienPhat.DefaultText = "1000";
+            this.txtTienPhat.DefaultText = "";
             this.txtTienPhat.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.txtTienPhat.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txtTienPhat.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -149,7 +148,6 @@
             this.txtTienPhat.Size = new System.Drawing.Size(131, 36);
             this.txtTienPhat.TabIndex = 11;
             this.txtTienPhat.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtTienPhat.TextChanged += new System.EventHandler(this.txtTienPhat_TextChanged);
             // 
             // txtThoiGianToiDa
             // 
@@ -157,7 +155,7 @@
             this.txtThoiGianToiDa.BorderColor = System.Drawing.Color.Transparent;
             this.txtThoiGianToiDa.BorderThickness = 0;
             this.txtThoiGianToiDa.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtThoiGianToiDa.DefaultText = "30";
+            this.txtThoiGianToiDa.DefaultText = "";
             this.txtThoiGianToiDa.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.txtThoiGianToiDa.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txtThoiGianToiDa.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -177,7 +175,6 @@
             this.txtThoiGianToiDa.Size = new System.Drawing.Size(131, 38);
             this.txtThoiGianToiDa.TabIndex = 12;
             this.txtThoiGianToiDa.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtThoiGianToiDa.TextChanged += new System.EventHandler(this.txtThoiGianToiDa_TextChanged);
             // 
             // txtSoLuongToiDa
             // 
@@ -185,7 +182,7 @@
             this.txtSoLuongToiDa.BorderColor = System.Drawing.Color.Transparent;
             this.txtSoLuongToiDa.BorderThickness = 0;
             this.txtSoLuongToiDa.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtSoLuongToiDa.DefaultText = "5";
+            this.txtSoLuongToiDa.DefaultText = "";
             this.txtSoLuongToiDa.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.txtSoLuongToiDa.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txtSoLuongToiDa.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -205,7 +202,6 @@
             this.txtSoLuongToiDa.Size = new System.Drawing.Size(131, 30);
             this.txtSoLuongToiDa.TabIndex = 13;
             this.txtSoLuongToiDa.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtSoLuongToiDa.TextChanged += new System.EventHandler(this.txtSoLuongToiDa_TextChanged);
             // 
             // guna2Panel1
             // 
@@ -295,24 +291,24 @@
             this.guna2HtmlLabel8.TabIndex = 22;
             this.guna2HtmlLabel8.Text = "đồng";
             // 
-            // btnLuuThayDoi
+            // btnSave
             // 
-            this.btnLuuThayDoi.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnLuuThayDoi.BorderRadius = 10;
-            this.btnLuuThayDoi.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnLuuThayDoi.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnLuuThayDoi.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnLuuThayDoi.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnLuuThayDoi.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(114)))), ((int)(((byte)(164)))));
-            this.btnLuuThayDoi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLuuThayDoi.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnLuuThayDoi.Location = new System.Drawing.Point(457, 550);
-            this.btnLuuThayDoi.Margin = new System.Windows.Forms.Padding(2);
-            this.btnLuuThayDoi.Name = "btnLuuThayDoi";
-            this.btnLuuThayDoi.Size = new System.Drawing.Size(263, 57);
-            this.btnLuuThayDoi.TabIndex = 23;
-            this.btnLuuThayDoi.Text = "Lưu thay đổi";
-            this.btnLuuThayDoi.Click += new System.EventHandler(this.btnLuuThayDoi_Click);
+            this.btnSave.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnSave.BorderRadius = 10;
+            this.btnSave.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnSave.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnSave.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnSave.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnSave.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(114)))), ((int)(((byte)(164)))));
+            this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSave.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnSave.Location = new System.Drawing.Point(457, 550);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(2);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(263, 57);
+            this.btnSave.TabIndex = 23;
+            this.btnSave.Text = "Lưu thay đổi";
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // FormCaiDatMuonTraSach
             // 
@@ -320,7 +316,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(233)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(1155, 680);
-            this.Controls.Add(this.btnLuuThayDoi);
+            this.Controls.Add(this.btnSave);
             this.Controls.Add(this.guna2HtmlLabel8);
             this.Controls.Add(this.guna2HtmlLabel7);
             this.Controls.Add(this.guna2HtmlLabel6);
@@ -363,6 +359,6 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel7;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel8;
-        private Guna.UI2.WinForms.Guna2Button btnLuuThayDoi;
+        private Guna.UI2.WinForms.Guna2Button btnSave;
     }
 }

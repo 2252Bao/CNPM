@@ -41,7 +41,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = false;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(114)))), ((int)(((byte)(164)))));
             this.label1.Location = new System.Drawing.Point(155, 17);
             this.label1.Margin = new System.Windows.Forms.Padding(2);
@@ -70,7 +70,6 @@
             this.txtTenTheLoai.Name = "txtTenTheLoai";
             this.txtTenTheLoai.Size = new System.Drawing.Size(503, 31);
             this.txtTenTheLoai.TabIndex = 30;
-            this.txtTenTheLoai.TextChanged += new System.EventHandler(this.txtTenTheLoai_TextChanged);
             // 
             // btnThem
             // 
@@ -125,6 +124,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "FormCaiDatThemTheLoai";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormCaiDatThemTheLoai";
             this.ResumeLayout(false);
             this.PerformLayout();
