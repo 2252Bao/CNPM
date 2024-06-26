@@ -117,7 +117,7 @@ namespace QuanLyThuVien
                                 {
                                     MessageBox.Show($"Không thể xóa thể loại {maTheLoai} vì đang được sử dụng trong bảng SACH.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                                     anyError = true;
-                                    continue; // Bo qua the loai neu co referenced va tiep tuc kiem tra the loai tiep theo
+                                    continue; 
                                 }
                             }
 
