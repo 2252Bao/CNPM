@@ -4,6 +4,8 @@
     {
         public string Username { get; set; }
         public string FullName { get; set; }
-        // You can add more properties here as needed
+        // Add these new properties
+        public string MaTK { get; set; }
+        public string LoaiTK { get; set; }
     }
 }

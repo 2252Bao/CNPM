@@ -33,22 +33,25 @@ namespace QuanLyThuVien
         {
             SqlConnection con = new SqlConnection(@"Data Source=TP4-LAPTOP;Initial Catalog=QUANLYTHUVIEN;Integrated Security=True;TrustServerCertificate=True");
             con.Open();
-            string query = "SELECT COUNT(*) FROM TAIKHOAN WHERE TK_Username=@username AND TK_Password=@password";
+            string query = "SELECT MaTK, TK_Username, TK_Password, LoaiTK FROM TAIKHOAN WHERE TK_Username=@username AND TK_Password=@password";
             SqlCommand cmd = new SqlCommand(query, con);
             cmd.Parameters.AddWithValue("@username", Username.Text);
             cmd.Parameters.AddWithValue("@password", Password.Text);
-            int count = Convert.ToInt32(cmd.ExecuteScalar());
-            con.Close();
-            if (count == 1)
+            SqlDataReader reader = cmd.ExecuteReader();
+            if (reader.Read())
             {
-                // Assuming you retrieve the user's full name or other details here
+                string maTK = reader["MaTK"].ToString();
+                string loaiTK = reader["LoaiTK"].ToString();
                 string fullName = "Retrieved Full Name"; // Placeholder for actual retrieval logic
 
                 // Store the current user's information
                 SessionManager.User = new CurrentUser
                 {
-                    Username = Username.Text,
-                    FullName = fullName
+                    Username = reader["TK_Username"].ToString(),
+                    FullName = fullName,
+                    // Add additional properties as needed, for example:
+                    MaTK = maTK,
+                    LoaiTK = loaiTK
                 };
                 FormMain f = new FormMain();
                 f.Show();
@@ -58,7 +61,9 @@ namespace QuanLyThuVien
             {
                 MessageBox.Show("Đăng nhập thất bại", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            con.Close();
         }
+
 
         private void Username_Enter(object sender, EventArgs e)
         {
