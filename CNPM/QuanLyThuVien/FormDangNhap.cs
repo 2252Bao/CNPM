@@ -33,26 +33,25 @@ namespace QuanLyThuVien
         {
             SqlConnection con = new SqlConnection(@"Data Source=TP4-LAPTOP;Initial Catalog=QUANLYTHUVIEN;Integrated Security=True;TrustServerCertificate=True");
             con.Open();
-            string query = "SELECT MaTK, TK_Username, TK_Password, LoaiTK FROM TAIKHOAN WHERE TK_Username=@username AND TK_Password=@password";
+            string query = "SELECT MaTK FROM TAIKHOAN WHERE TK_Username=@username AND TK_Password=@password";
             SqlCommand cmd = new SqlCommand(query, con);
             cmd.Parameters.AddWithValue("@username", Username.Text);
             cmd.Parameters.AddWithValue("@password", Password.Text);
-            SqlDataReader reader = cmd.ExecuteReader();
-            if (reader.Read())
+            object result = cmd.ExecuteScalar();
+            con.Close();
+            if (result != null)
             {
-                string maTK = reader["MaTK"].ToString();
-                string loaiTK = reader["LoaiTK"].ToString();
-                string fullName = "Retrieved Full Name"; // Placeholder for actual retrieval logic
+                string maTK = result.ToString();
 
-                // Store the current user's information
+                // Store the MaTK in SessionManager.User
                 SessionManager.User = new CurrentUser
                 {
-                    Username = reader["TK_Username"].ToString(),
-                    FullName = fullName,
-                    // Add additional properties as needed, for example:
-                    MaTK = maTK,
-                    LoaiTK = loaiTK
+                    Username = Username.Text,
+                    MaTK = maTK // Ensure CurrentUser class has a MaTK property
                 };
+
+                // Optionally, retrieve additional information using maTK from other tables here or elsewhere as needed
+
                 FormMain f = new FormMain();
                 f.Show();
                 this.Hide();
@@ -61,7 +60,6 @@ namespace QuanLyThuVien
             {
                 MessageBox.Show("Đăng nhập thất bại", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            con.Close();
         }
 
 
