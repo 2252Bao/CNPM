@@ -50,6 +50,13 @@ namespace QuanLyThuVien
                     }
 
                     txtSoLuongTheLoai.Text = dt.Rows.Count.ToString();
+
+                    query = "SELECT So_Nam_Xuat_Ban FROM QUY_DINH";
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
+                    {
+                        int soNamXuatBan = (int)cmd.ExecuteScalar();
+                        txtNamXuatBanXaNhat.Text = soNamXuatBan.ToString();
+                    }
                 }
             }
             catch (Exception ex)
@@ -149,21 +156,21 @@ namespace QuanLyThuVien
         {
             try
             {
-                conn.Open();
-                string query = "UPDATE QUY_DINH SET So_Nam_Xuat_Ban = @SoNamXuatBan";
-                SqlCommand cmd = new SqlCommand(query, conn);
-                cmd.Parameters.AddWithValue("@SoNamXuatBan", int.Parse(txtNamXuatBanXaNhat.Text));
-
-                cmd.ExecuteNonQuery();
-                MessageBox.Show("Thông tin được cập nhật thành công!");
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                {
+                    conn.Open();
+                    string query = "UPDATE QUY_DINH SET So_Nam_Xuat_Ban = @SoNamXuatBan";
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@SoNamXuatBan", int.Parse(txtNamXuatBanXaNhat.Text));
+                        cmd.ExecuteNonQuery();
+                    }
+                    MessageBox.Show("Thông tin được cập nhật thành công!");
+                }
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
-            }
-            finally
-            {
-                conn.Close();
+                MessageBox.Show("Error updating data: " + ex.Message);
             }
         }
     }
