@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QuanLyThuVien.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using QuanLyThuVien.Helpers;
 
 namespace QuanLyThuVien
 {
@@ -39,6 +41,15 @@ namespace QuanLyThuVien
             con.Close();
             if (count == 1)
             {
+                // Assuming you retrieve the user's full name or other details here
+                string fullName = "Retrieved Full Name"; // Placeholder for actual retrieval logic
+
+                // Store the current user's information
+                SessionManager.User = new CurrentUser
+                {
+                    Username = Username.Text,
+                    FullName = fullName
+                };
                 FormMain f = new FormMain();
                 f.Show();
                 this.Hide();

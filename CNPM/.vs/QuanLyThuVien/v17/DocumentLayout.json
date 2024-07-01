@@ -1,25 +1,36 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ADMIN\\source\\repos\\CNPM3\\CNPM\\",
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\source\\repos\\CNPM5\\CNPM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE98E3A4-E18A-462B-9B98-F7A007C06035}|QuanLyThuVien\\QuanLyThuVien.csproj|c:\\users\\admin\\source\\repos\\cnpm3\\cnpm\\quanlythuvien\\formquenmatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BE98E3A4-E18A-462B-9B98-F7A007C06035}|QuanLyThuVien\\QuanLyThuVien.csproj|c:\\users\\admin\\source\\repos\\cnpm5\\cnpm\\quanlythuvien\\formquenmatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE98E3A4-E18A-462B-9B98-F7A007C06035}|QuanLyThuVien\\QuanLyThuVien.csproj|solutionrelative:quanlythuvien\\formquenmatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE98E3A4-E18A-462B-9B98-F7A007C06035}|QuanLyThuVien\\QuanLyThuVien.csproj|c:\\users\\admin\\source\\repos\\cnpm3\\cnpm\\quanlythuvien\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BE98E3A4-E18A-462B-9B98-F7A007C06035}|QuanLyThuVien\\QuanLyThuVien.csproj|C:\\Users\\ADMIN\\source\\repos\\CNPM5\\CNPM\\quanlythuvien\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE98E3A4-E18A-462B-9B98-F7A007C06035}|QuanLyThuVien\\QuanLyThuVien.csproj|solutionrelative:quanlythuvien\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE98E3A4-E18A-462B-9B98-F7A007C06035}|QuanLyThuVien\\QuanLyThuVien.csproj|c:\\users\\admin\\source\\repos\\cnpm3\\cnpm\\quanlythuvien\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BE98E3A4-E18A-462B-9B98-F7A007C06035}|QuanLyThuVien\\QuanLyThuVien.csproj|c:\\users\\admin\\source\\repos\\cnpm5\\cnpm\\quanlythuvien\\models\\currentuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE98E3A4-E18A-462B-9B98-F7A007C06035}|QuanLyThuVien\\QuanLyThuVien.csproj|solutionrelative:quanlythuvien\\models\\currentuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE98E3A4-E18A-462B-9B98-F7A007C06035}|QuanLyThuVien\\QuanLyThuVien.csproj|c:\\users\\admin\\source\\repos\\cnpm5\\cnpm\\quanlythuvien\\models\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE98E3A4-E18A-462B-9B98-F7A007C06035}|QuanLyThuVien\\QuanLyThuVien.csproj|solutionrelative:quanlythuvien\\models\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/TP4_LAPTOP/QUANLYTHUVIEN/True/SqlTable/dbo.THE_DOCGIA.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE98E3A4-E18A-462B-9B98-F7A007C06035}|QuanLyThuVien\\QuanLyThuVien.csproj|C:\\Users\\ADMIN\\source\\repos\\CNPM5\\CNPM\\quanlythuvien\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE98E3A4-E18A-462B-9B98-F7A007C06035}|QuanLyThuVien\\QuanLyThuVien.csproj|solutionrelative:quanlythuvien\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE98E3A4-E18A-462B-9B98-F7A007C06035}|QuanLyThuVien\\QuanLyThuVien.csproj|c:\\users\\admin\\source\\repos\\cnpm3\\cnpm\\quanlythuvien\\formquenmatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{BE98E3A4-E18A-462B-9B98-F7A007C06035}|QuanLyThuVien\\QuanLyThuVien.csproj|C:\\Users\\ADMIN\\source\\repos\\CNPM5\\CNPM\\quanlythuvien\\formquenmatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BE98E3A4-E18A-462B-9B98-F7A007C06035}|QuanLyThuVien\\QuanLyThuVien.csproj|solutionrelative:quanlythuvien\\formquenmatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE98E3A4-E18A-462B-9B98-F7A007C06035}|QuanLyThuVien\\QuanLyThuVien.csproj|c:\\users\\admin\\source\\repos\\cnpm3\\cnpm\\quanlythuvien\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{BE98E3A4-E18A-462B-9B98-F7A007C06035}|QuanLyThuVien\\QuanLyThuVien.csproj|C:\\Users\\ADMIN\\source\\repos\\CNPM5\\CNPM\\quanlythuvien\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BE98E3A4-E18A-462B-9B98-F7A007C06035}|QuanLyThuVien\\QuanLyThuVien.csproj|solutionrelative:quanlythuvien\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -30,7 +41,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -57,67 +68,97 @@
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "dbo.THE_DOCGIA [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/TP4_LAPTOP/QUANLYTHUVIEN/True/SqlTable/dbo.THE_DOCGIA.sql",
+              "ToolTip": "dbo.THE_DOCGIA [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-07-01T15:39:39.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SessionManager.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\CNPM5\\CNPM\\QuanLyThuVien\\Models\\SessionManager.cs",
+              "RelativeDocumentMoniker": "QuanLyThuVien\\Models\\SessionManager.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\CNPM5\\CNPM\\QuanLyThuVien\\Models\\SessionManager.cs",
+              "RelativeToolTip": "QuanLyThuVien\\Models\\SessionManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T15:29:58.603Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\CNPM3\\CNPM\\QuanLyThuVien\\Program.cs",
-              "RelativeDocumentMoniker": "QuanLyThuVien\\Program.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\CNPM3\\CNPM\\QuanLyThuVien\\Program.cs",
-              "RelativeToolTip": "QuanLyThuVien\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAsAAAA",
+              "Title": "CurrentUser.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\CNPM5\\CNPM\\QuanLyThuVien\\Models\\CurrentUser.cs",
+              "RelativeDocumentMoniker": "QuanLyThuVien\\Models\\CurrentUser.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\CNPM5\\CNPM\\QuanLyThuVien\\Models\\CurrentUser.cs",
+              "RelativeToolTip": "QuanLyThuVien\\Models\\CurrentUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T14:23:36.566Z",
+              "WhenOpened": "2024-07-01T15:29:14.213Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "FormQuenMatKhau.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\CNPM3\\CNPM\\QuanLyThuVien\\FormQuenMatKhau.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\CNPM5\\CNPM\\QuanLyThuVien\\FormQuenMatKhau.cs",
               "RelativeDocumentMoniker": "QuanLyThuVien\\FormQuenMatKhau.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\CNPM3\\CNPM\\QuanLyThuVien\\FormQuenMatKhau.cs",
-              "RelativeToolTip": "QuanLyThuVien\\FormQuenMatKhau.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAE8AAAApAAAA",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\CNPM5\\CNPM\\QuanLyThuVien\\FormQuenMatKhau.cs*",
+              "RelativeToolTip": "QuanLyThuVien\\FormQuenMatKhau.cs*",
+              "ViewState": "AQIAABkAAAAAAAAAAAAiwDEAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-01T14:21:53.041Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\CNPM5\\CNPM\\QuanLyThuVien\\Program.cs",
+              "RelativeDocumentMoniker": "QuanLyThuVien\\Program.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\CNPM5\\CNPM\\QuanLyThuVien\\Program.cs",
+              "RelativeToolTip": "QuanLyThuVien\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T14:23:36.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "FormQuenMatKhau.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\CNPM3\\CNPM\\QuanLyThuVien\\FormQuenMatKhau.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\CNPM5\\CNPM\\QuanLyThuVien\\FormQuenMatKhau.cs",
               "RelativeDocumentMoniker": "QuanLyThuVien\\FormQuenMatKhau.cs",
               "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\CNPM3\\CNPM\\QuanLyThuVien\\FormQuenMatKhau.cs [Design]",
-              "RelativeToolTip": "QuanLyThuVien\\FormQuenMatKhau.cs [Design]",
+              "RelativeToolTip": "..\\..\\CNPM3\\CNPM\\QuanLyThuVien\\FormQuenMatKhau.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T14:15:26.301Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-07-01T14:15:26.301Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "FormDangNhap.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\CNPM3\\CNPM\\QuanLyThuVien\\FormDangNhap.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\CNPM5\\CNPM\\QuanLyThuVien\\FormDangNhap.cs",
               "RelativeDocumentMoniker": "QuanLyThuVien\\FormDangNhap.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\CNPM3\\CNPM\\QuanLyThuVien\\FormDangNhap.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\CNPM5\\CNPM\\QuanLyThuVien\\FormDangNhap.cs",
               "RelativeToolTip": "QuanLyThuVien\\FormDangNhap.cs",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAAAGAAAAApAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAgwCMAAABxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-01T14:10:20.746Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "FormDangNhap.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\CNPM3\\CNPM\\QuanLyThuVien\\FormDangNhap.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\CNPM5\\CNPM\\QuanLyThuVien\\FormDangNhap.cs",
               "RelativeDocumentMoniker": "QuanLyThuVien\\FormDangNhap.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\CNPM3\\CNPM\\QuanLyThuVien\\FormDangNhap.cs [Design]",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\CNPM5\\CNPM\\QuanLyThuVien\\FormDangNhap.cs [Design]",
               "RelativeToolTip": "QuanLyThuVien\\FormDangNhap.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-01T14:06:22.909Z",

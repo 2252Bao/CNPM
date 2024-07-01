@@ -44,14 +44,11 @@ namespace QuanLyThuVien
             SqlConnection con = new SqlConnection(@"Data Source=TP4-LAPTOP;Initial Catalog=QUANLYTHUVIEN;Integrated Security=True;TrustServerCertificate=True");
             con.Open();
             string combinedQuery = @"
-SELECT 
-    DG.Email, TK.TK_Password 
-FROM 
-    THE_DOCGIA DG
-INNER JOIN 
-    TAIKHOAN TK ON DG.MaTaiKhoan = TK.MaTK
-WHERE 
-    DG.Email = @Email";
+SELECT TK.TK_Password
+FROM TAIKHOAN TK
+LEFT JOIN THE_DOCGIA DG ON TK.MaTK = DG.MaTaiKhoan
+LEFT JOIN THUTHU TT ON TK.MaTK = TT.MaTaiKhoan
+WHERE DG.Email = @Email OR TT.Email = @Email";
             SqlCommand cmd = new SqlCommand(combinedQuery, con);
             cmd.Parameters.AddWithValue("@Email", Email.Text);
 
