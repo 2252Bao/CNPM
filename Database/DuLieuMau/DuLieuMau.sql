@@ -64,7 +64,7 @@ INSERT INTO THUTHU (MaTT, HoTen, MaTaiKhoan, NgayTaoTK, NgaySinh, DiaChi, Email,
 
 
 -- Du lieu mau cho bang THELOAI_SACH
-INSERT INTO THELOAI (MaTheLoai, TenTheLoai) VALUES
+INSERT INTO THELOAI_SACH (MaTheLoai, TenTheLoai) VALUES
 ('TL001', 'Tiểu thuyết'),
 ('TL002', 'Khoa học'),
 ('TL003', 'Lịch sử'),
