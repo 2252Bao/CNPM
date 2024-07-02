@@ -29,41 +29,42 @@ INSERT INTO TAIKHOAN (MaTK, TK_Username, TK_Password, LoaiTK) VALUES
 
 
 -- Du lieu mau cua bang THE_DOCGIA
-INSERT INTO THE_DOCGIA (MaDG, HoTen, MaTaiKhoan, NgaySinh, DiaChi, Email, NgayLapTheDocGia, NgayHetHan) VALUES
-('DG001', 'Nguyễn Văn An', 'TK001', '01-01-1990', '123 Đường A', 'an.nguyen@example.com', '01-01-2023', '01-01-2024'),
-('DG002', 'Trần Thị Bích', 'TK002', '15-02-1985', '456 Đường B', 'bich.tran@example.com', '01-02-2023', '01-02-2024'),
-('DG003', 'Lê Hoàng Cường', 'TK003', '20-03-1979', '789 Đường C', 'cuong.le@example.com', '01-03-2023', '01-03-2024'),
-('DG004', 'Phạm Minh Duy', 'TK004', '10-04-1992', '101 Đường D', 'duy.pham@example.com', '01-04-2023', '01-04-2024'),
-('DG005', 'Hoàng Thị Em', 'TK005', '25-05-1987', '202 Đường E', 'em.hoang@example.com', '01-05-2023', '01-05-2024'),
-('DG006', 'Bùi Văn Phát', 'TK006', '30-06-1983', '303 Đường F', 'phat.bui@example.com', '01-06-2023', '01-06-2024'),
-('DG007', 'Đỗ Thị Gấm', 'TK007', '15-07-1995', '404 Đường G', 'gam.do@example.com', '01-07-2023', '01-07-2024'),
-('DG008', 'Vũ Hoàng Hà', 'TK008', '10-08-1981', '505 Đường H', 'ha.vu@example.com', '01-08-2023', '01-08-2024'),
-('DG009', 'Phạm Văn Khang', 'TK009', '05-09-1988', '606 Đường I', 'khang.pham@example.com', '01-09-2023', '01-09-2024'),
-('DG010', 'Nguyễn Thị Lan', 'TK010', '20-10-1993', '707 Đường J', 'lan.nguyen@example.com', '01-10-2023', '01-10-2024'),
-('DG011', 'Trần Văn Minh', 'TK011', '25-11-1984', '808 Đường K', 'minh.tran@example.com', '01-11-2023', '01-11-2024'),
-('DG012', 'Lê Thị Ngọc', 'TK012', '30-12-1990', '909 Đường L', 'ngoc.le@example.com', '01-12-2023', '01-12-2024'),
-('DG013', 'Hoàng Văn Nam', 'TK013', '15-01-1986', '111 Đường M', 'nam.hoang@example.com', '15-01-2023', '15-01-2024'),
-('DG014', 'Bùi Thị Oanh', 'TK014', '10-02-1991', '222 Đường N', 'oanh.bui@example.com', '15-02-2023', '15-02-2024'),
-('DG015', 'Đỗ Văn Phú', 'TK015', '05-03-1978', '333 Đường O', 'phu.do@example.com', '15-03-2023', '15-03-2024'),
-('DG016', 'Vũ Thị Quyên', 'TK016', '20-04-1989', '444 Đường P', 'quyen.vu@example.com', '15-04-2023', '15-04-2024'),
-('DG017', 'Phạm Văn Sơn', 'TK017', '25-05-1982', '555 Đường Q', 'son.pham@example.com', '15-05-2023', '15-05-2024'),
-('DG018', 'Nguyễn Thị Tâm', 'TK018', '30-06-1994', '666 Đường R', 'tam.nguyen@example.com', '15-06-2023', '15-06-2024'),
-('DG019', 'Trần Văn Tài', 'TK019', '10-07-1980', '777 Đường S', 'tai.tran@example.com', '15-07-2023', '15-07-2024'),
-('DG020', 'Lê Thị Uyên', 'TK020', '05-08-1996', '888 Đường T', 'uyen.le@example.com', '15-08-2023', '15-08-2024');
+INSERT INTO THE_DOCGIA (MaDG, HoTen, MaTaiKhoan, NgaySinh, DiaChi, Email, Sdt, NgayLapTheDocGia, NgayHetHan) VALUES
+('DG001', 'Nguyễn Văn An', 'TK001', '01-01-1990', '123 Đường A', 'an.nguyen@example.com', '0912345678', '01-01-2023', '01-01-2024'),
+('DG002', 'Trần Thị Bích', 'TK002', '15-02-1985', '456 Đường B', 'bich.tran@example.com', '0912345679', '01-02-2023', '01-02-2024'),
+('DG003', 'Lê Hoàng Cường', 'TK003', '20-03-1979', '789 Đường C', 'cuong.le@example.com', '0912345680', '01-03-2023', '01-03-2024'),
+('DG004', 'Phạm Minh Duy', 'TK004', '10-04-1992', '101 Đường D', 'duy.pham@example.com', '0912345681', '01-04-2023', '01-04-2024'),
+('DG005', 'Hoàng Thị Em', 'TK005', '25-05-1987', '202 Đường E', 'em.hoang@example.com', '0912345682', '01-05-2023', '01-05-2024'),
+('DG006', 'Bùi Văn Phát', 'TK006', '30-06-1983', '303 Đường F', 'phat.bui@example.com', '0912345683', '01-06-2023', '01-06-2024'),
+('DG007', 'Đỗ Thị Gấm', 'TK007', '15-07-1995', '404 Đường G', 'gam.do@example.com', '0912345684', '01-07-2023', '01-07-2024'),
+('DG008', 'Vũ Hoàng Hà', 'TK008', '10-08-1981', '505 Đường H', 'ha.vu@example.com', '0912345685', '01-08-2023', '01-08-2024'),
+('DG009', 'Phạm Văn Khang', 'TK009', '05-09-1988', '606 Đường I', 'khang.pham@example.com', '0912345686', '01-09-2023', '01-09-2024'),
+('DG010', 'Nguyễn Thị Lan', 'TK010', '20-10-1993', '707 Đường J', 'lan.nguyen@example.com', '0912345687', '01-10-2023', '01-10-2024'),
+('DG011', 'Trần Văn Minh', 'TK011', '25-11-1984', '808 Đường K', 'minh.tran@example.com', '0912345688', '01-11-2023', '01-11-2024'),
+('DG012', 'Lê Thị Ngọc', 'TK012', '30-12-1990', '909 Đường L', 'ngoc.le@example.com', '0912345689', '01-12-2023', '01-12-2024'),
+('DG013', 'Hoàng Văn Nam', 'TK013', '15-01-1986', '111 Đường M', 'nam.hoang@example.com', '0912345690', '15-01-2023', '15-01-2024'),
+('DG014', 'Bùi Thị Oanh', 'TK014', '10-02-1991', '222 Đường N', 'oanh.bui@example.com', '0912345691', '15-02-2023', '15-02-2024'),
+('DG015', 'Đỗ Văn Phú', 'TK015', '05-03-1978', '333 Đường O', 'phu.do@example.com', '0912345692', '15-03-2023', '15-03-2024'),
+('DG016', 'Vũ Thị Quyên', 'TK016', '20-04-1989', '444 Đường P', 'quyen.vu@example.com', '0912345693', '15-04-2023', '15-04-2024'),
+('DG017', 'Phạm Văn Sơn', 'TK017', '25-05-1982', '555 Đường Q', 'son.pham@example.com', '0912345694', '15-05-2023', '15-05-2024'),
+('DG018', 'Nguyễn Thị Tâm', 'TK018', '30-06-1994', '666 Đường R', 'tam.nguyen@example.com', '0912345695', '15-06-2023', '15-06-2024'),
+('DG019', 'Trần Văn Tài', 'TK019', '10-07-1980', '777 Đường S', 'tai.tran@example.com', '0912345696', '15-07-2023', '15-07-2024'),
+('DG020', 'Lê Thị Uyên', 'TK020', '05-08-1996', '888 Đường T', 'uyen.le@example.com', '0912345697', '15-08-2023', '15-08-2024');
 
 
 
 
 -- Du lieu mau cho bang THUTHU
-INSERT INTO THUTHU (MaTT, HoTen, MaTaiKhoan, NgayTaoTK, NgaySinh, DiaChi, Email) VALUES
-('TT001', 'Lê Thị Bích Ngọc', 'TK021', '01-01-2023', '05-05-1985', '123 Đường V', 'ngoc.le@example.com'),
-('TT002', 'Nguyễn Văn Hùng', 'TK022', '01-01-2023', '20-07-1980', '456 Đường W', 'hung.nguyen@example.com');
+INSERT INTO THUTHU (MaTT, HoTen, MaTaiKhoan, NgayTaoTK, NgaySinh, DiaChi, Email, Sdt) VALUES
+('TT001', 'Lê Thị Bích Ngọc', 'TK021', '01-01-2023', '05-05-1985', '123 Đường V', 'ngoc.le@example.com', '0912345698'),
+('TT002', 'Nguyễn Văn Hùng', 'TK022', '01-01-2023', '20-07-1980', '456 Đường W', 'hung.nguyen@example.com', '0912345699');
+
 
 
 
 
 -- Du lieu mau cho bang THELOAI_SACH
-INSERT INTO THELOAI_SACH (MaTheLoai, TenTheLoai) VALUES
+INSERT INTO THELOAI (MaTheLoai, TenTheLoai) VALUES
 ('TL001', 'Tiểu thuyết'),
 ('TL002', 'Khoa học'),
 ('TL003', 'Lịch sử'),
