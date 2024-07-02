@@ -80,7 +80,6 @@
             this.txtMatKhauHienTai.Name = "txtMatKhauHienTai";
             this.txtMatKhauHienTai.Size = new System.Drawing.Size(989, 31);
             this.txtMatKhauHienTai.TabIndex = 11;
-            this.txtMatKhauHienTai.TextChanged += new System.EventHandler(this.txtMatKhauHienTai_TextChanged);
             // 
             // txtMatKhauMoi
             // 
@@ -89,7 +88,6 @@
             this.txtMatKhauMoi.Name = "txtMatKhauMoi";
             this.txtMatKhauMoi.Size = new System.Drawing.Size(989, 31);
             this.txtMatKhauMoi.TabIndex = 12;
-            this.txtMatKhauMoi.TextChanged += new System.EventHandler(this.txtMatKhauMoi_TextChanged);
             // 
             // txtNhapLaiMatKhauMoi
             // 
@@ -98,7 +96,6 @@
             this.txtNhapLaiMatKhauMoi.Name = "txtNhapLaiMatKhauMoi";
             this.txtNhapLaiMatKhauMoi.Size = new System.Drawing.Size(989, 31);
             this.txtNhapLaiMatKhauMoi.TabIndex = 13;
-            this.txtNhapLaiMatKhauMoi.TextChanged += new System.EventHandler(this.txtNhapLaiMatKhauMoi_TextChanged);
             // 
             // btnLuuThayDoi
             // 

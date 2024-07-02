@@ -127,7 +127,6 @@
             this.txtHoTen.Name = "txtHoTen";
             this.txtHoTen.Size = new System.Drawing.Size(989, 31);
             this.txtHoTen.TabIndex = 26;
-            this.txtHoTen.TextChanged += new System.EventHandler(this.txtHoTen_TextChanged);
             // 
             // guna2HtmlLabel2
             // 
@@ -167,7 +166,6 @@
             this.txtDiaChi.Name = "txtDiaChi";
             this.txtDiaChi.Size = new System.Drawing.Size(989, 31);
             this.txtDiaChi.TabIndex = 28;
-            this.txtDiaChi.TextChanged += new System.EventHandler(this.txtDiaChi_TextChanged);
             // 
             // txtTaiKhoan
             // 
@@ -176,7 +174,6 @@
             this.txtTaiKhoan.Name = "txtTaiKhoan";
             this.txtTaiKhoan.Size = new System.Drawing.Size(476, 31);
             this.txtTaiKhoan.TabIndex = 29;
-            this.txtTaiKhoan.TextChanged += new System.EventHandler(this.txtTaiKhoan_TextChanged);
             // 
             // txtEmail
             // 
@@ -185,7 +182,6 @@
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(476, 31);
             this.txtEmail.TabIndex = 30;
-            this.txtEmail.TextChanged += new System.EventHandler(this.txtEmail_TextChanged);
             // 
             // dateTimePicker1
             // 
@@ -196,7 +192,6 @@
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(261, 31);
             this.dateTimePicker1.TabIndex = 31;
-            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // txtSoDienThoai
             // 
@@ -205,7 +200,6 @@
             this.txtSoDienThoai.Name = "txtSoDienThoai";
             this.txtSoDienThoai.Size = new System.Drawing.Size(706, 31);
             this.txtSoDienThoai.TabIndex = 32;
-            this.txtSoDienThoai.TextChanged += new System.EventHandler(this.txtSoDienThoai_TextChanged);
             // 
             // FormCaiDatThongTinCaNhan
             // 
