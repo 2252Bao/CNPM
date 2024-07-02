@@ -41,7 +41,7 @@ namespace QuanLyThuVien
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection(@"Data Source=TP4-LAPTOP;Initial Catalog=QUANLYTHUVIEN;Integrated Security=True;TrustServerCertificate=True");
+            SqlConnection con = new SqlConnection(@"Data Source=localhost;Initial Catalog=QUANLYTHUVIEN;User ID=sa;Password=1234");
             con.Open();
             string combinedQuery = @"
 SELECT TK.TK_Password

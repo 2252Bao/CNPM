@@ -31,7 +31,7 @@ namespace QuanLyThuVien
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection(@"Data Source=TP4-LAPTOP;Initial Catalog=QUANLYTHUVIEN;Integrated Security=True;TrustServerCertificate=True");
+            SqlConnection con = new SqlConnection(@"Data Source=localhost;Initial Catalog=QUANLYTHUVIEN;User ID=sa;Password=1234");
             con.Open();
             string query = "SELECT MaTK FROM TAIKHOAN WHERE TK_Username=@username AND TK_Password=@password";
             SqlCommand cmd = new SqlCommand(query, con);
