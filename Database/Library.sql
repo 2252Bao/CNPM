@@ -3,7 +3,7 @@ GO
 USE QUANLYTHUVIEN
 GO
 
-SET DATEFORMAT DMY
+	
 
 CREATE TABLE TAIKHOAN(
 	MaTK VARCHAR(255) PRIMARY KEY,
@@ -131,28 +131,14 @@ END
 
 --QD1: The doc gia co thoi han la vai thang theo quy dinh.
 CREATE TRIGGER HSD ON THE_DOCGIA
-FOR INSERT
+AFTER INSERT, UPDATE
 AS
 BEGIN
-    DECLARE @MaDG VARCHAR(255)
-    DECLARE @NgayLapTheDocGia SMALLDATETIME
-    DECLARE @NgayHetHan SMALLDATETIME
-	DECLARE @ThoiHanThe INT
-
-	SELECT @ThoiHanThe = Q.Thoi_Han_The_Doc_Gia
-	FROM QUY_DINH Q
-
-    SELECT @MaDG = inserted.MaDG,
-           @NgayLapTheDocGia = inserted.NgayLapTheDocGia
-    FROM inserted
-
-    -- Tinh ngay het han
-    SET @NgayHetHan = DATEADD(MONTH, @ThoiHanThe, @NgayLapTheDocGia)
-
-    -- Cap nhat ngay het han vao bang THE_DOCGIA
-    UPDATE THE_DOCGIA
-    SET NgayHetHan = @NgayHetHan
-    WHERE MaDG = @MaDG
+    UPDATE td
+    SET NgayHetHan = DATEADD(MONTH, Q.Thoi_Han_The_Doc_Gia, td.NgayLapTheDocGia)
+    FROM THE_DOCGIA td JOIN inserted i ON td.MaDG = i.MaDG
+    JOIN QUY_DINH Q ON 1=1
+    WHERE td.MaDG = i.MaDG
 END
 
 --QD2: CHI NHAN SACH XUAT BAN TRONG VONG VAI NAM THEO QUY DINH.
@@ -186,35 +172,41 @@ END
 
 --QD3: Chi cho muon voi the con han. Chi muon duoc mot so luong sach nhat dinh trong mot thoi gian
 
-CREATE TRIGGER DieuKienMuon ON PHIEU_MUON_SACH
+CREATE OR ALTER TRIGGER DieuKienMuon ON PHIEU_MUON_SACH
 FOR INSERT
 AS
 BEGIN
     DECLARE @MaxBooksPerMember INT
     DECLARE @MaxDaysToReturn INT
-	DECLARE @MaSach VARCHAR(255)
 
-	SELECT @MaxBooksPerMember = Q.So_Sach_Doc_Gia_Muon_Duoc_Trong_Mot_ThoiGian,
-		   @MaxDaysToReturn = Q.So_Ngay_Gioi_Han_So_Luong_Sach_Muon
-	FROM QUY_DINH Q
+    SELECT @MaxBooksPerMember = Q.So_Sach_Doc_Gia_Muon_Duoc_Trong_Mot_ThoiGian,
+           @MaxDaysToReturn = Q.So_Ngay_Gioi_Han_So_Luong_Sach_Muon
+    FROM QUY_DINH Q
 
-    -- Kiem tra the doc gia co con han không
+    -- Kiểm tra các bản ghi trong inserted
     IF EXISTS (
         SELECT 1
-        FROM inserted i JOIN THE_DOCGIA dg ON i.MaDG = dg.MaDG
-        WHERE NgayHetHan < GETDATE()
+        FROM inserted i
+        JOIN THE_DOCGIA dg ON i.MaDG = dg.MaDG
+        WHERE dg.NgayHetHan < GETDATE()
     )
     BEGIN
         PRINT 'The doc gia da het han'
         ROLLBACK TRANSACTION
     END
 
-	-- Kiem tra so luong sach muon cua doc gia trong mot khoang thoi gian theo quy dinh
-    IF (
-        SELECT SUM(SoLuongSach)
-        FROM PHIEU_MUON_SACH
-        WHERE MaDG = (SELECT MaDG FROM inserted) AND NgayMuon >= DATEADD(DAY, -@MaxDaysToReturn, GETDATE())
-    ) >= @MaxBooksPerMember
+    -- Kiểm tra số lượng sách mượn của từng độc giả trong khoảng thời gian quy định
+    IF EXISTS (
+        SELECT 1
+        FROM (
+            SELECT MaDG, SUM(SoLuongSach) AS TongSoLuongSachMuon
+            FROM PHIEU_MUON_SACH
+            WHERE MaDG IN (SELECT MaDG FROM inserted)
+              AND NgayMuon >= DATEADD(DAY, -@MaxDaysToReturn, GETDATE())
+            GROUP BY MaDG
+        ) AS A
+        WHERE A.TongSoLuongSachMuon > @MaxBooksPerMember
+    )
     BEGIN
         PRINT 'So luong sach muon da vuot muc toi da.'
         ROLLBACK TRANSACTION
@@ -222,77 +214,40 @@ BEGIN
 END
 -- QD5: Moi ngay tra tre phat 1.000 dong/ngay. (Moi sach duoc muon toi da 10 ngay.)
 CREATE TRIGGER TinhPhiPhat ON PHIEU_TRA_SACH
-FOR INSERT, UPDATE
+AFTER INSERT, UPDATE
 AS
 BEGIN
-    DECLARE @MaPhieuTra VARCHAR(255)
-	DECLARE @MaPhieuMuon VARCHAR(255)
-    DECLARE @NgayTra SMALLDATETIME
-	DECLARE @NgayMuon SMALLDATETIME
-    DECLARE @SoNgayTre INT
-    DECLARE @PhiPhat MONEY
-	DECLARE @ThoiHanMuonSach INT
-	DECLARE @PhiPhatTheoNGay INT
+    DECLARE @ThoiHanMuonSach INT
+    DECLARE @PhiPhatTheoNGay INT
 
+    SELECT @ThoiHanMuonSach = Q.Thoi_Han_Muon_Sach,
+           @PhiPhatTheoNGay = Q.Phi_Phat_Theo_Mot_Ngay_Tre
+    FROM QUY_DINH Q
 
-	SELECT @ThoiHanMuonSach = Q.Thoi_Han_Muon_Sach,
-		   @PhiPhatTheoNGay = Q.Phi_Phat_Theo_Mot_Ngay_Tre
-	FROM QUY_DINH Q
-    
-
-    SELECT @MaPhieuTra = inserted.MaPhieuTra,
-           @NgayTra = inserted.NgayTra,
-		   @MaPhieuMuon = inserted.MaPhieuMuon
-    FROM inserted
-
-	SELECT @NgayMuon = NgayMuon
-	FROM PHIEU_MUON_SACH
-	WHERE @MaPhieuMuon = MaPhieuMuon
-    
-    -- Tinh so ngay tre
-	IF (@NgayTra <= DATEADD(DAY, @ThoiHanMuonSach, @NgayMuon)) SET @PhiPhat = 0
-	ELSE
-	BEGIN
-    SELECT @SoNgayTre = DATEDIFF(DAY, DATEADD(DAY, @ThoiHanMuonSach, @NgayMuon), @NgayTra)
-    FROM PHIEU_MUON_SACH
-    WHERE MaPhieuMuon = (SELECT MaPhieuMuon FROM PHIEU_TRA_SACH WHERE MaPhieuTra = @MaPhieuTra)
-	
-    
-    -- Tinh phi phat
-    SET @PhiPhat = @SoNgayTre * @PhiPhatTheoNGay
-    END
-    -- Cap nhat phi phat vao bang PHIEU_TRA_SACH
-    UPDATE PHIEU_TRA_SACH
-    SET SoNgayTre = @SoNgayTre,
-        SoTienPhat = @PhiPhat
-    WHERE MaPhieuTra = @MaPhieuTra
+    UPDATE pts
+    SET SoNgayTre = CASE
+                        WHEN pts.NgayTra <= DATEADD(DAY, @ThoiHanMuonSach, pm.NgayMuon) THEN 0
+                        ELSE DATEDIFF(DAY, DATEADD(DAY, @ThoiHanMuonSach, pm.NgayMuon), pts.NgayTra)
+                    END,
+        SoTienPhat = CASE
+                        WHEN pts.NgayTra <= DATEADD(DAY, @ThoiHanMuonSach, pm.NgayMuon) THEN 0
+                        ELSE DATEDIFF(DAY, DATEADD(DAY, @ThoiHanMuonSach, pm.NgayMuon), pts.NgayTra) * @PhiPhatTheoNGay
+                    END
+    FROM PHIEU_TRA_SACH pts
+    JOIN PHIEU_MUON_SACH pm ON pts.MaPhieuMuon = pm.MaPhieuMuon
+    JOIN inserted i ON pts.MaPhieuTra = i.MaPhieuTra
 END
 
 --QD: So tien thu khong duoc vuot qua so tien doc gia dang no.
 CREATE TRIGGER ThuTienPhat ON PHIEU_THU_TIEN_PHAT
-FOR INSERT, UPDATE
+AFTER INSERT, UPDATE
 AS
 BEGIN
-	DECLARE @MaPhieuPhat VARCHAR(255)
-	DECLARE @TongTienPhat MONEY
-    DECLARE @TienNhanDuoc MONEY
-	DECLARE @TienConLai MONEY
-
-	SELECT @MaPhieuPhat = inserted.MaPhieuPhat,
-           @TongTienPhat = inserted.TongTienPhat,
-           @TienNhanDuoc = inserted.TienNhanDuoc
-    FROM inserted
-
-	IF (@TienNhanDuoc > @TongTienPhat)
-    BEGIN
-        PRINT 'So tien thu khong duoc vuot qua so tien doc gia dang no'
-        ROLLBACK TRANSACTION
-    END
-	ELSE
-	BEGIN
-	SET @TienConLai = @TongTienPhat - @TienNhanDuoc
-	UPDATE PHIEU_THU_TIEN_PHAT
-	SET TienConLai = @TienConLai
-	WHERE @MaPhieuPhat = MaPhieuPhat
-	END
+    UPDATE p
+    SET TienConLai = CASE
+                        WHEN i.TienNhanDuoc > i.TongTienPhat THEN p.TienConLai
+                        ELSE i.TongTienPhat - i.TienNhanDuoc
+                    END
+    FROM PHIEU_THU_TIEN_PHAT p
+    JOIN inserted i ON p.MaPhieuPhat = i.MaPhieuPhat;
 END
