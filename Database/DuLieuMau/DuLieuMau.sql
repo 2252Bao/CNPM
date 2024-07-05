@@ -74,7 +74,6 @@ INSERT INTO THUTHU (MaTT, HoTen, MaTaiKhoan, NgayTaoTK, NgaySinh, DiaChi, Email,
 ('TT001', 'Lê Thị Bích Ngọc', 'TK021', '01-01-2023', '05-05-1985', '123 Đường V', 'ngoc.lethi@example.com', '0912345698'),
 ('TT002', 'Nguyễn Văn Hùng', 'TK022', '01-01-2023', '20-07-1980', '456 Đường W', 'hung.nguyen@example.com', '0912345699');
 
-select * from PHIEU_MUON_SACH
 
 
 -- Du lieu mau cho bang THELOAI_SACH
