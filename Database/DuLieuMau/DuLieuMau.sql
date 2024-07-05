@@ -13,6 +13,8 @@ INSERT INTO QUY_DINH VALUES (18, 55, 6, 8, 5, 7, 10, 1000)
 -- Thời hạn độc giả có thể mượn sách là 10 ngày
 -- Phí phạt nếu trả sách trễ là 1000đ/ngày
 
+INSERT INTO ThoiGian_ThongKe (Thang, Nam) VALUES (7, 2024);
+
 
 
 -- Du lieu mau cho bang TAIKHOAN
@@ -44,8 +46,8 @@ INSERT INTO TAIKHOAN (MaTK, TK_Username, TK_Password, LoaiTK) VALUES
 
 -- Du lieu mau cua bang THE_DOCGIA
 INSERT INTO THE_DOCGIA (MaDG, HoTen, MaTaiKhoan, NgaySinh, DiaChi, Email, Sdt, NgayLapTheDocGia, NgayHetHan) VALUES
-('DG001', 'Nguyễn Văn An', 'TK001', '01-01-1990', '123 Đường A', 'an.nguyen@example.com', '0912345678', '15-01-2024', '15-01-2025'),
-('DG002', 'Trần Thị Bích', 'TK002', '15-02-1985', '456 Đường B', 'bich.tran@example.com', '0912345679', '25-01-2024', '25-01-2025'),
+('DG001', 'Nguyễn Văn An', 'TK001', '01-01-1990', '123 Đường A', 'an.nguyen@example.com', '0912345678', '15-02-2024', '15-01-2025'),
+('DG002', 'Trần Thị Bích', 'TK002', '15-02-1985', '456 Đường B', 'bich.tran@example.com', '0912345679', '25-02-2024', '25-01-2025'),
 ('DG003', 'Lê Hoàng Cường', 'TK003', '20-03-1979', '789 Đường C', 'cuong.le@example.com', '0912345680', '07-02-2024', '07-02-2025'),
 ('DG004', 'Phạm Minh Duy', 'TK004', '10-04-1992', '101 Đường D', 'duy.pham@example.com', '0912345681', '12-02-2024', '12-02-2025'),
 ('DG005', 'Hoàng Thị Em', 'TK005', '25-05-1987', '202 Đường E', 'em.hoang@example.com', '0912345682', '28-02-2024', '28-02-2025'),
@@ -72,6 +74,7 @@ INSERT INTO THUTHU (MaTT, HoTen, MaTaiKhoan, NgayTaoTK, NgaySinh, DiaChi, Email,
 ('TT001', 'Lê Thị Bích Ngọc', 'TK021', '01-01-2023', '05-05-1985', '123 Đường V', 'ngoc.lethi@example.com', '0912345698'),
 ('TT002', 'Nguyễn Văn Hùng', 'TK022', '01-01-2023', '20-07-1980', '456 Đường W', 'hung.nguyen@example.com', '0912345699');
 
+select * from PHIEU_MUON_SACH
 
 
 -- Du lieu mau cho bang THELOAI_SACH
@@ -88,7 +91,7 @@ INSERT INTO THELOAI_SACH (MaTheLoai, TenTheLoai) VALUES
 -- Du lieu mau cho bang SACH
 INSERT INTO SACH (MaSach, TenSach, MaTheLoai, TacGia, NamXuatBan, NhaXuatBan, SoLuong, GiaSach) VALUES
 ('S001', 'Mắt Biếc', 'TL001', 'Nguyễn Nhật Ánh', 2016, 'NXB Trẻ', 10, 100000),
-('S002', 'Cho tôi xin một vé đi tuổi thơ', 'TL001', 'Nguyễn Nhật Ánh', 2017, 'NXB Trẻ', 8, 150000),
+('S002', 'Cho tôi xin một vé đi về tuổi thơ', 'TL001', 'Nguyễn Nhật Ánh', 2017, 'NXB Trẻ', 8, 150000),
 ('S003', 'Tôi thấy hoa vàng trên cỏ xanh', 'TL001', 'Nguyễn Nhật Ánh', 2018, 'NXB Trẻ', 5, 180000),
 ('S004', 'Cánh đồng bất tận', 'TL001', 'Nguyễn Ngọc Tư', 2016, 'NXB Trẻ', 12, 200000),
 ('S005', 'Chuyện người con gái Nam Xương', 'TL001', 'Nguyễn Dữ', 2019, 'NXB Văn Học', 7, 220000),
@@ -122,26 +125,27 @@ INSERT INTO SACH (MaSach, TenSach, MaTheLoai, TacGia, NamXuatBan, NhaXuatBan, So
 
 -- Dữ liệu mẫu cho bảng PHIEU_MUON_SACH
 INSERT INTO PHIEU_MUON_SACH (MaPhieuMuon, MaDG, MaTT, SoLuongSach, NgayMuon) VALUES 
-('PM001', 'DG001', 'TT001', 6, '16-01-2024'),
+('PM001', 'DG001', 'TT001', 5, '16-01-2024'),
 ('PM002', 'DG002', 'TT002', 3, '20-02-2024'),
 ('PM003', 'DG003', 'TT001', 1, '10-03-2024'),
-('PM004', 'DG004', 'TT002', 14, '05-04-2024'),
+('PM004', 'DG004', 'TT002', 4, '05-04-2024'),
 ('PM005', 'DG005', 'TT001', 4, '25-05-2024'),
 ('PM006', 'DG006', 'TT002', 3, '12-07-2024'),
 ('PM007', 'DG007', 'TT002', 1, '05-05-2024'),
 ('PM008', 'DG008', 'TT001', 4, '18-04-2024'),
 ('PM009', 'DG009', 'TT001', 5, '22-05-2024'),
 ('PM010', 'DG010', 'TT001', 2, '30-06-2024'),
-('PM011', 'DG011', 'TT002', 7, '10-06-2024'),
+('PM011', 'DG011', 'TT002', 2, '10-06-2024'),
 ('PM012', 'DG012', 'TT001', 3, '12-06-2024'),
-('PM013', 'DG013', 'TT002', 8, '15-06-2024'),
+('PM013', 'DG013', 'TT002', 3, '15-06-2024'),
 ('PM014', 'DG014', 'TT001', 5, '20-06-2024'),
-('PM015', 'DG015', 'TT002', 6, '26-05-2024'),
+('PM015', 'DG015', 'TT002', 4, '26-05-2024'),
 ('PM016', 'DG016', 'TT001', 4, '21-06-2024'),
 ('PM017', 'DG017', 'TT002', 3, '07-07-2024'),
 ('PM018', 'DG018', 'TT001', 1, '05-07-2024'),
-('PM019', 'DG019', 'TT002', 9, '03-07-2024'),
+('PM019', 'DG019', 'TT002', 2, '03-07-2024'),
 ('PM020', 'DG020', 'TT001', 2, '04-07-2024');
+
 
 -- Dữ liệu mẫu cho bảng PHIEU_TRA_SACH
 INSERT INTO PHIEU_TRA_SACH (MaPhieuTra, MaPhieuMuon, MaDG, MaTT, NgayTra, SoLuongSach, SoNgayTre, SoTienPhat) VALUES 
@@ -198,18 +202,18 @@ INSERT INTO CHITIET_MUONTRA (MaPhieuMuon, MaSach, SoLuong) VALUES
 ('PM012', 'S028', 2),
 ('PM013', 'S029', 4),
 ('PM013', 'S030', 3),
-('PM013', 'S031', 1),
-('PM014', 'S032', 5),
-('PM014', 'S033', 2),
-('PM015', 'S034', 3),
-('PM015', 'S035', 3),
-('PM016', 'S036', 2),
-('PM016', 'S037', 1),
-('PM017', 'S038', 2),
-('PM017', 'S039', 1),
-('PM018', 'S040', 1),
-('PM019', 'S041', 4),
-('PM019', 'S042', 3),
-('PM019', 'S043', 2),
-('PM020', 'S044', 1),
-('PM020', 'S045', 1);
+('PM013', 'S021', 1),
+('PM014', 'S012', 5),
+('PM014', 'S020', 2),
+('PM015', 'S015', 3),
+('PM015', 'S005', 3),
+('PM016', 'S004', 2),
+('PM016', 'S029', 1),
+('PM017', 'S017', 2),
+('PM017', 'S019', 1),
+('PM018', 'S010', 1),
+('PM019', 'S002', 4),
+('PM019', 'S006', 3),
+('PM019', 'S003', 2),
+('PM020', 'S014', 1),
+('PM020', 'S025', 1);
