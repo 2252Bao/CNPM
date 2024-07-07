@@ -69,11 +69,11 @@ INSERT INTO THUTHU (MaTT, HoTen, MaTaiKhoan, NgayTaoTK, NgaySinh, DiaChi, Email,
 
 -- Du lieu mau cho bang THELOAI_SACH
 INSERT INTO THELOAI_SACH (MaTheLoai, TenTheLoai, MaTT) VALUES
-('TL001', N'Văn học', 'TT001'),
-('TL002', N'Khoa học', 'TT002'),
-('TL003', N'Lịch sử', 'TT001'),
-('TL004', N'Tâm lý', 'TT002'),
-('TL005', N'Giáo dục', 'TT001');
+('TL001', N'Văn học'),
+('TL002', N'Khoa học'),
+('TL003', N'Lịch sử'),
+('TL004', N'Tâm lý'),
+('TL005', N'Giáo dục');
 
 -- Du lieu mau cho bang TACGIA
 INSERT INTO TACGIA (MaTacGia, TenTacGia) VALUES
