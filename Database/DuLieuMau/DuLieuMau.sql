@@ -68,7 +68,7 @@ INSERT INTO THUTHU (MaTT, HoTen, MaTaiKhoan, NgayTaoTK, NgaySinh, DiaChi, Email,
 ('TT002', N'Nguyễn Văn Hùng', 'TK022', '01-01-2023', '20-07-1980', N'456 Đường W', 'hung.nguyen@example.com', '0912345699');
 
 -- Du lieu mau cho bang THELOAI_SACH
-INSERT INTO THELOAI_SACH (MaTheLoai, TenTheLoai, MaTT) VALUES
+INSERT INTO THELOAI_SACH (MaTheLoai, TenTheLoai) VALUES
 ('TL001', N'Văn học'),
 ('TL002', N'Khoa học'),
 ('TL003', N'Lịch sử'),
