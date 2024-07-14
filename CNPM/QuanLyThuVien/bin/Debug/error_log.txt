@@ -1,0 +1,12 @@
+Error processing row 2: The transaction ended in the trigger. The batch has been aborted.
+So nam xuat ban cua sach phai trong khoang cho phep
+Error processing row 3: The transaction ended in the trigger. The batch has been aborted.
+So nam xuat ban cua sach phai trong khoang cho phep
+Error processing row 4: The transaction ended in the trigger. The batch has been aborted.
+So nam xuat ban cua sach phai trong khoang cho phep
+Error processing row 3: The transaction ended in the trigger. The batch has been aborted.
+So nam xuat ban cua sach phai trong khoang cho phep
+Error processing row 4: The transaction ended in the trigger. The batch has been aborted.
+So nam xuat ban cua sach phai trong khoang cho phep
+Error processing row 2: Violation of PRIMARY KEY constraint 'PK__SACH__B235742DCA335C6F'. Cannot insert duplicate key in object 'dbo.SACH'. The duplicate key value is (MS001).
+The statement has been terminated.
