@@ -17,8 +17,6 @@ ORDER BY TongSoLuongSachMuon DESC, DG.MaDG ASC;
 
 -- Thống kê sách được mượn nhiều nhất
 
-DECLARE @Year INT;
-DECLARE @Month INT;
 
 SELECT @Year = tg.Nam,		-- Có thể thay đổi thời gian thống kê bằng cách cập nhật giá trị trong bảng ThoiGian_ThongKe
 	   @Month = tg.Thang
