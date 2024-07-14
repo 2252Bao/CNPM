@@ -1,0 +1,318 @@
+R:\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+R:\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+R:\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+R:\QuanLyThuVien\QuanLyThuVien\bin\Debug\Guna.UI2.dll
+R:\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.AssemblyReference.cache
+R:\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Form1.resources
+R:\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+R:\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.cache
+R:\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CoreCompileInputs.cache
+R:\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyTh.B5137F7B.Up2Date
+R:\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+R:\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+R:\QuanLyThuVien\QuanLyThuVien\bin\Debug\MaterialWinforms.dll
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\bin\Debug\Guna.UI2.dll
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\bin\Debug\MaterialWinforms.dll
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.AssemblyReference.cache
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.cache
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CoreCompileInputs.cache
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyTh.B5137F7B.Up2Date
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormMain.resources
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormTraSach.resources
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDat.resources
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatThongTinSach.resources
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatQuyDinhTheDocGia.resources
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormThongKeBaoCao.resources
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormMuonTraSach.resources
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormKhoSach.resources
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormThongTinDocGia.resources
+C:\Users\asus\Downloads\2024-06-11 [12.36.58] 163.T3\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormGioiThieu.resources
+C:\Users\ASUS GAMING\Downloads\QuanLyThuVien_Update1_0383977395_20240616.174634\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.AssemblyReference.cache
+C:\Users\ASUS GAMING\Downloads\QuanLyThuVien_Update1_0383977395_20240616.174634\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+C:\Users\ASUS GAMING\Downloads\QuanLyThuVien_Update1_0383977395_20240616.174634\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+C:\Users\ASUS GAMING\Downloads\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.AssemblyReference.cache
+C:\Users\ASUS GAMING\Downloads\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+C:\Users\ASUS GAMING\Downloads\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\Guna.UI2.dll
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\MaterialWinforms.dll
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.AssemblyReference.cache
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDat.resources
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatQuyDinhTheDocGia.resources
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatThongTinSach.resources
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormGioiThieu.resources
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormKhoSach.resources
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormMain.resources
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormMuonTraSach.resources
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormThongKeBaoCao.resources
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormThongTinDocGia.resources
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormTraSach.resources
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.cache
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CoreCompileInputs.cache
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyTh.B5137F7B.Up2Date
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatMuonTraSach.resources
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatThongTinCaNhan.resources
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatDoiMatKhau.resources
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatChinhSuaTheLoai.resources
+D:\0. Download\Nhap Mon CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatThemTheLoai.resources
+C:\Users\ADMIN\Source\Repos\CNPM3\CNPM\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+C:\Users\ADMIN\Source\Repos\CNPM3\CNPM\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+C:\Users\ADMIN\Source\Repos\CNPM3\CNPM\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+C:\Users\ADMIN\Source\Repos\CNPM3\CNPM\QuanLyThuVien\bin\Debug\Guna.UI2.dll
+C:\Users\ADMIN\Source\Repos\CNPM3\CNPM\QuanLyThuVien\bin\Debug\MaterialWinforms.dll
+C:\Users\ADMIN\Source\Repos\CNPM3\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Source\Repos\CNPM3\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDat.resources
+C:\Users\ADMIN\Source\Repos\CNPM3\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatChinhSuaTheLoai.resources
+C:\Users\ADMIN\Source\Repos\CNPM3\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatDoiMatKhau.resources
+C:\Users\ADMIN\Source\Repos\CNPM3\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatMuonTraSach.resources
+C:\Users\ADMIN\Source\Repos\CNPM3\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatQuyDinhTheDocGia.resources
+C:\Users\ADMIN\Source\Repos\CNPM3\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatThemTheLoai.resources
+C:\Users\ADMIN\Source\Repos\CNPM3\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatThongTinCaNhan.resources
+C:\Users\ADMIN\Source\Repos\CNPM3\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatThongTinSach.resources
+C:\Users\ADMIN\Source\Repos\CNPM3\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormGioiThieu.resources
+C:\Users\ADMIN\Source\Repos\CNPM3\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormKhoSach.resources
+C:\Users\ADMIN\Source\Repos\CNPM3\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormMain.resources
+C:\Users\ADMIN\Source\Repos\CNPM3\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormMuonTraSach.resources
+C:\Users\ADMIN\Source\Repos\CNPM3\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormThongKeBaoCao.resources
+C:\Users\ADMIN\Source\Repos\CNPM3\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormThongTinDocGia.resources
+C:\Users\ADMIN\Source\Repos\CNPM3\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormTraSach.resources
+C:\Users\ADMIN\Source\Repos\CNPM3\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+C:\Users\ADMIN\Source\Repos\CNPM3\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.cache
+C:\Users\ADMIN\Source\Repos\CNPM3\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Source\Repos\CNPM3\CNPM\QuanLyThuVien\obj\Debug\QuanLyTh.B5137F7B.Up2Date
+C:\Users\ADMIN\Source\Repos\CNPM3\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+C:\Users\ADMIN\Source\Repos\CNPM3\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+C:\Users\ADMIN\source\repos\CNPM3\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormDangNhap.resources
+C:\Users\ADMIN\source\repos\CNPM3\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormQuenMatKhau.resources
+C:\Users\ADMIN\Source\Repos\CNPM5\CNPM\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+C:\Users\ADMIN\Source\Repos\CNPM5\CNPM\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+C:\Users\ADMIN\Source\Repos\CNPM5\CNPM\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+C:\Users\ADMIN\Source\Repos\CNPM5\CNPM\QuanLyThuVien\bin\Debug\Guna.UI2.dll
+C:\Users\ADMIN\Source\Repos\CNPM5\CNPM\QuanLyThuVien\bin\Debug\MaterialWinforms.dll
+C:\Users\ADMIN\Source\Repos\CNPM5\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Source\Repos\CNPM5\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDat.resources
+C:\Users\ADMIN\Source\Repos\CNPM5\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatChinhSuaTheLoai.resources
+C:\Users\ADMIN\Source\Repos\CNPM5\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatDoiMatKhau.resources
+C:\Users\ADMIN\Source\Repos\CNPM5\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatMuonTraSach.resources
+C:\Users\ADMIN\Source\Repos\CNPM5\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatQuyDinhTheDocGia.resources
+C:\Users\ADMIN\Source\Repos\CNPM5\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatThemTheLoai.resources
+C:\Users\ADMIN\Source\Repos\CNPM5\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatThongTinCaNhan.resources
+C:\Users\ADMIN\Source\Repos\CNPM5\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatThongTinSach.resources
+C:\Users\ADMIN\Source\Repos\CNPM5\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormDangNhap.resources
+C:\Users\ADMIN\Source\Repos\CNPM5\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormGioiThieu.resources
+C:\Users\ADMIN\Source\Repos\CNPM5\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormKhoSach.resources
+C:\Users\ADMIN\Source\Repos\CNPM5\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormMain.resources
+C:\Users\ADMIN\Source\Repos\CNPM5\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormMuonTraSach.resources
+C:\Users\ADMIN\Source\Repos\CNPM5\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormQuenMatKhau.resources
+C:\Users\ADMIN\Source\Repos\CNPM5\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormThongKeBaoCao.resources
+C:\Users\ADMIN\Source\Repos\CNPM5\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormThongTinDocGia.resources
+C:\Users\ADMIN\Source\Repos\CNPM5\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormTraSach.resources
+C:\Users\ADMIN\Source\Repos\CNPM5\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+C:\Users\ADMIN\Source\Repos\CNPM5\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.cache
+C:\Users\ADMIN\Source\Repos\CNPM5\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Source\Repos\CNPM5\CNPM\QuanLyThuVien\obj\Debug\QuanLyTh.B5137F7B.Up2Date
+C:\Users\ADMIN\Source\Repos\CNPM5\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+C:\Users\ADMIN\Source\Repos\CNPM5\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+D:\test\CNPM\CNPM\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+D:\test\CNPM\CNPM\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+D:\test\CNPM\CNPM\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+D:\test\CNPM\CNPM\QuanLyThuVien\bin\Debug\Guna.UI2.dll
+D:\test\CNPM\CNPM\QuanLyThuVien\bin\Debug\MaterialWinforms.dll
+D:\test\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.AssemblyReference.cache
+D:\test\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDat.resources
+D:\test\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatChinhSuaTheLoai.resources
+D:\test\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatDoiMatKhau.resources
+D:\test\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatMuonTraSach.resources
+D:\test\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatQuyDinhTheDocGia.resources
+D:\test\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatThemTheLoai.resources
+D:\test\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatThongTinCaNhan.resources
+D:\test\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatThongTinSach.resources
+D:\test\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormDangNhap.resources
+D:\test\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormGioiThieu.resources
+D:\test\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormKhoSach.resources
+D:\test\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormMain.resources
+D:\test\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormMuonTraSach.resources
+D:\test\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormQuenMatKhau.resources
+D:\test\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormThongKeBaoCao.resources
+D:\test\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormThongTinDocGia.resources
+D:\test\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormTraSach.resources
+D:\test\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+D:\test\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.cache
+D:\test\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CoreCompileInputs.cache
+D:\test\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyTh.B5137F7B.Up2Date
+D:\test\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+D:\test\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\Guna.UI2.dll
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\MaterialWinforms.dll
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.AssemblyReference.cache
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.SuggestedBindingRedirects.cache
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDat.resources
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatChinhSuaTheLoai.resources
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatDoiMatKhau.resources
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatMuonTraSach.resources
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatQuyDinhTheDocGia.resources
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatThemTheLoai.resources
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatThongTinCaNhan.resources
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatThongTinSach.resources
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormDangNhap.resources
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormGioiThieu.resources
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormKhoSach.resources
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormMain.resources
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormMuonTraSach.resources
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormQuenMatKhau.resources
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormThongKeBaoCao.resources
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormThongTinDocGia.resources
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormTraSach.resources
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.cache
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CoreCompileInputs.cache
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CopyComplete
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\ClosedXML.dll
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\DocumentFormat.OpenXml.dll
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\ExcelNumberFormat.dll
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\Irony.dll
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\SixLabors.Fonts.dll
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\System.Buffers.dll
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\System.IO.Packaging.dll
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\System.Memory.dll
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\System.Numerics.Vectors.dll
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\XLParser.dll
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\ClosedXML.xml
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\DocumentFormat.OpenXml.xml
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\ExcelNumberFormat.xml
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\SixLabors.Fonts.xml
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\System.Buffers.xml
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\System.IO.Packaging.xml
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\System.Memory.xml
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\System.Numerics.Vectors.xml
+D:\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\ClosedXML.dll
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\Dapper.dll
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\DocumentFormat.OpenXml.dll
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\ExcelNumberFormat.dll
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\Guna.UI2.dll
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\Irony.dll
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\MaterialWinforms.dll
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\SixLabors.Fonts.dll
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\System.Buffers.dll
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\System.Configuration.ConfigurationManager.dll
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\System.IO.Packaging.dll
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\System.Memory.dll
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\System.Numerics.Vectors.dll
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\XLParser.dll
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\ClosedXML.xml
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\Dapper.xml
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\DocumentFormat.OpenXml.xml
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\ExcelNumberFormat.xml
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\SixLabors.Fonts.xml
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\System.Buffers.xml
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\System.Configuration.ConfigurationManager.xml
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\System.IO.Packaging.xml
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\System.Memory.xml
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\System.Numerics.Vectors.xml
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.AssemblyReference.cache
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDat.resources
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatChinhSuaTheLoai.resources
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatDoiMatKhau.resources
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatMuonTraSach.resources
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatQuyDinhTheDocGia.resources
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatThemTheLoai.resources
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatThongTinCaNhan.resources
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatThongTinSach.resources
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormDangNhap.resources
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormGioiThieu.resources
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormKhoSach.resources
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormMain.resources
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormMuonTraSach.resources
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormQuenMatKhau.resources
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormThongKeBaoCao.resources
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormThongTinDocGia.resources
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormTraSach.resources
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.cache
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CoreCompileInputs.cache
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyTh.B5137F7B.Up2Date
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormInPhieuMuonSach.resources
+R:\CNPM\CNPM\CNPM\CNPM\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormTheDocGia.resources
+D:\CNPM_Update2\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+D:\CNPM_Update2\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+D:\CNPM_Update2\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+D:\CNPM_Update2\QuanLyThuVien\bin\Debug\ClosedXML.dll
+D:\CNPM_Update2\QuanLyThuVien\bin\Debug\Dapper.dll
+D:\CNPM_Update2\QuanLyThuVien\bin\Debug\DocumentFormat.OpenXml.dll
+D:\CNPM_Update2\QuanLyThuVien\bin\Debug\ExcelNumberFormat.dll
+D:\CNPM_Update2\QuanLyThuVien\bin\Debug\Guna.UI2.dll
+D:\CNPM_Update2\QuanLyThuVien\bin\Debug\Irony.dll
+D:\CNPM_Update2\QuanLyThuVien\bin\Debug\MaterialWinforms.dll
+D:\CNPM_Update2\QuanLyThuVien\bin\Debug\SixLabors.Fonts.dll
+D:\CNPM_Update2\QuanLyThuVien\bin\Debug\System.Buffers.dll
+D:\CNPM_Update2\QuanLyThuVien\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\CNPM_Update2\QuanLyThuVien\bin\Debug\System.IO.Packaging.dll
+D:\CNPM_Update2\QuanLyThuVien\bin\Debug\System.Memory.dll
+D:\CNPM_Update2\QuanLyThuVien\bin\Debug\System.Numerics.Vectors.dll
+D:\CNPM_Update2\QuanLyThuVien\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\CNPM_Update2\QuanLyThuVien\bin\Debug\XLParser.dll
+D:\CNPM_Update2\QuanLyThuVien\bin\Debug\ClosedXML.xml
+D:\CNPM_Update2\QuanLyThuVien\bin\Debug\Dapper.xml
+D:\CNPM_Update2\QuanLyThuVien\bin\Debug\DocumentFormat.OpenXml.xml
+D:\CNPM_Update2\QuanLyThuVien\bin\Debug\ExcelNumberFormat.xml
+D:\CNPM_Update2\QuanLyThuVien\bin\Debug\SixLabors.Fonts.xml
+D:\CNPM_Update2\QuanLyThuVien\bin\Debug\System.Buffers.xml
+D:\CNPM_Update2\QuanLyThuVien\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\CNPM_Update2\QuanLyThuVien\bin\Debug\System.IO.Packaging.xml
+D:\CNPM_Update2\QuanLyThuVien\bin\Debug\System.Memory.xml
+D:\CNPM_Update2\QuanLyThuVien\bin\Debug\System.Numerics.Vectors.xml
+D:\CNPM_Update2\QuanLyThuVien\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\CNPM_Update2\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.AssemblyReference.cache
+D:\CNPM_Update2\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDat.resources
+D:\CNPM_Update2\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatChinhSuaTheLoai.resources
+D:\CNPM_Update2\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatDoiMatKhau.resources
+D:\CNPM_Update2\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatMuonTraSach.resources
+D:\CNPM_Update2\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatQuyDinhTheDocGia.resources
+D:\CNPM_Update2\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatThemTheLoai.resources
+D:\CNPM_Update2\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatThongTinCaNhan.resources
+D:\CNPM_Update2\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormCaiDatThongTinSach.resources
+D:\CNPM_Update2\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormChiTietLichSu.resources
+D:\CNPM_Update2\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormDangNhap.resources
+D:\CNPM_Update2\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormGioiThieu.resources
+D:\CNPM_Update2\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormInPhieuMuonSach.resources
+D:\CNPM_Update2\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormInPhieuTraSach.resources
+D:\CNPM_Update2\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormKhoSach.resources
+D:\CNPM_Update2\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormLichSuMuonTraSach.resources
+D:\CNPM_Update2\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormMain.resources
+D:\CNPM_Update2\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormMuonTraSach.resources
+D:\CNPM_Update2\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormQuenMatKhau.resources
+D:\CNPM_Update2\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormTheDocGia.resources
+D:\CNPM_Update2\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormThongKeBaoCao.resources
+D:\CNPM_Update2\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormThongTinDocGia.resources
+D:\CNPM_Update2\QuanLyThuVien\obj\Debug\QuanLyThuVien.FormTraSach.resources
+D:\CNPM_Update2\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+D:\CNPM_Update2\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.cache
+D:\CNPM_Update2\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CoreCompileInputs.cache
+D:\CNPM_Update2\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CopyComplete
+D:\CNPM_Update2\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+D:\CNPM_Update2\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
